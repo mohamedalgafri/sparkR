@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="509" height="536" viewBox="0 0 509 536">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_675" data-name="Rectangle 675" width="509" height="536" transform="translate(1411 822)" fill="none"/>
+    </clipPath>
+    <linearGradient id="linear-gradient" x1="0.5" y1="1" x2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#00933b"/>
+      <stop offset="1" stop-color="#2b9f5d"/>
+    </linearGradient>
+    <filter id="Path_2204" x="-15.5" y="8.794" width="816.944" height="532.206" filterUnits="userSpaceOnUse">
+      <feOffset dy="20" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="10" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="rightimgpro" transform="translate(-1411 -822)" clip-path="url(#clip-path)">
+    <g transform="matrix(1, 0, 0, 1, 1411, 822)" filter="url(#Path_2204)">
+      <path id="Path_2204-2" data-name="Path 2204" d="M753.453,297.167C729.2,411.02,632.913,481.684,514.064,471.21c-58.256-5.157-383.136-99.269-383.136-99.269C26.743,357.759-11.289,255.187,2.812,151.083S80-47.213,171.537,26.03c0,0,101.686,103.459,299.58,8.138C614.622-35.046,783.347,157.126,753.453,297.167Z" transform="translate(14.51 18.77)" fill="url(#linear-gradient)"/>
+    </g>
+  </g>
+</svg>

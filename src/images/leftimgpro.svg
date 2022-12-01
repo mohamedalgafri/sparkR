@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="842" height="555" viewBox="0 0 842 555">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_157" data-name="Rectangle 157" width="842" height="555" fill="#fff" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#00933b"/>
+      <stop offset="1" stop-color="#2b9f5d"/>
+    </linearGradient>
+    <filter id="Path_2205" x="-292.444" y="25" width="816.944" height="532.206" filterUnits="userSpaceOnUse">
+      <feOffset dy="20" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="10" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="leftimgpro" clip-path="url(#clip-path)">
+    <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Path_2205)">
+      <path id="Path_2205-2" data-name="Path 2205" d="M3.462,175.1C27.715,61.243,124-9.422,242.852,1.053c58.256,5.157,383.136,99.269,383.136,99.269C730.172,114.5,768.2,217.076,754.1,321.179s-77.191,198.3-168.725,125.053c0,0-101.686-103.459-299.58-8.138C142.293,507.309-26.432,315.136,3.462,175.1Z" transform="translate(-262.43 34.97)" fill="url(#linear-gradient)"/>
+    </g>
+  </g>
+</svg>

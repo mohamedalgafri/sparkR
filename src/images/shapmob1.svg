@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="390" height="728" viewBox="0 0 390 728">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_23" data-name="Rectangle 23" width="390" height="728" transform="translate(0 -112)" fill="none" opacity="0"/>
+    </clipPath>
+    <filter id="Path_5" x="-378.881" y="-327.09" width="1061.375" height="1025.109" filterUnits="userSpaceOnUse">
+      <feOffset dy="20" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="10" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="shapmob1" transform="translate(0 112)" clip-path="url(#clip-path)">
+    <g id="minidil" transform="translate(-272.995 -71.172) rotate(-30)">
+      <g transform="matrix(0.87, 0.5, -0.5, 0.87, 256.83, 101.14)" filter="url(#Path_5)">
+        <path id="Path_5-2" data-name="Path 5" d="M433.021-14.783S369.18-6.137,335.529,1.509c-20.225,4.543-65.061,15.55-93.444,46.1-29.316,31.518-71.731,48.236-89.239,57.663-4.769,2.634-54.644,56.833-69.487,86.25-12.619,24.8-64.182,159.341-68.3,174.844C-7.814,451.279-57.914,548.38-23.723,607.616c10.855,18.806,21.064-172.2,54.215-163.068,24.322,6.7,51.565,16.487,51.565,16.487s-78.509,91.414,31.578,87.5c74.088-2.632,197.25,83.836,309,105.344,25.782,4.962,64.858-3,88.963-7.013,25.786-4.287,36.338-5.662,58.11-25.469,113.533-103.266-62.243-193.218,152.763-378.23C803.289,173.419,433.021-14.783,433.021-14.783Z" transform="translate(-310.9 62.72) rotate(-30)" fill="#f5b03c"/>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="297" height="577" viewBox="0 0 297 577">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_673" data-name="Rectangle 673" width="297" height="577" transform="translate(93 50)" fill="none" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+    <filter id="Path_3" x="-24.362" y="28.434" width="634.902" height="583.1" filterUnits="userSpaceOnUse">
+      <feOffset dy="20" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="10" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="shapmob2" transform="translate(-93 -50)" clip-path="url(#clip-path)">
+    <g id="minidil-2" transform="translate(98.638 88.434)">
+      <g id="Group_5" data-name="Group 5" transform="translate(0 0)">
+        <g transform="matrix(1, 0, 0, 1, -5.64, -38.43)" filter="url(#Path_3)">
+          <path id="Path_3-2" data-name="Path 3" d="M2.626,193.965C21.046,67.841,94.177-10.44,184.443,1.164c44.246,5.713,290.994,109.968,290.994,109.968,79.128,15.71,108.013,129.338,97.3,244.661S514.114,575.462,444.593,494.324c0,0-77.231-114.61-227.532-9.015C108.069,561.983-20.078,349.1,2.626,193.965Z" transform="translate(5.65 38.41)" fill="#e9460a"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

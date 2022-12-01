@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="28.633" height="28.633" viewBox="0 0 28.633 28.633">
+  <g id="lovelyblow" transform="translate(-748 -252)">
+    <g id="Group" transform="translate(750.386 255.698)">
+      <g id="Group-2" data-name="Group">
+        <path id="Vector" d="M5.917,0a5.88,5.88,0,0,1,4.736,2.374A5.916,5.916,0,0,1,21.308,5.953a11.472,11.472,0,0,1-.1,1.456,4.431,4.431,0,0,0-5.321,1.408A4.432,4.432,0,0,0,7.91,11.5a9.722,9.722,0,0,0,3.579,7.3,1.12,1.12,0,0,1-.179.072,2.236,2.236,0,0,1-1.312,0C6.908,17.812,0,13.422,0,5.953a5.96,5.96,0,0,1,1.277-3.7" fill="none" stroke="#09bbf7" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+      </g>
+      <g id="Group-3" data-name="Group" transform="translate(7.91 7.039)">
+        <path id="Vector-2" data-name="Vector" d="M15.951,4.462c0,5.583-5.166,8.876-7.48,9.664a1.748,1.748,0,0,1-.99,0,12.372,12.372,0,0,1-3.9-2.362A9.722,9.722,0,0,1,0,4.462,4.432,4.432,0,0,1,7.981,1.778,4.431,4.431,0,0,1,13.3.37" fill="none" stroke="#09bbf7" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+      </g>
+    </g>
+    <path id="Vector-3" data-name="Vector" d="M0,0H28.633V28.633H0Z" transform="translate(748 252)" fill="none" opacity="0"/>
+  </g>
+</svg>

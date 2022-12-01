@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
+  <g id="vuesax_outline_man" data-name="vuesax/outline/man" transform="translate(-364 -188)">
+    <g id="man" transform="translate(364 188)">
+      <path id="Vector" d="M22.667,45.333A22.667,22.667,0,1,1,45.333,22.667,22.682,22.682,0,0,1,22.667,45.333ZM22.667,4A18.667,18.667,0,1,0,41.333,22.667,18.687,18.687,0,0,0,22.667,4Z" transform="translate(4.667 14)" fill="#fff"/>
+      <path id="Vector-2" data-name="Vector" d="M1.993,18.66A1.978,1.978,0,0,1,.58,18.073a2.012,2.012,0,0,1,0-2.827L15.247.58a2,2,0,1,1,2.827,2.827L3.407,18.073A1.978,1.978,0,0,1,1.993,18.66Z" transform="translate(40.673 4.673)" fill="#fff"/>
+      <path id="Vector-3" data-name="Vector" d="M19.333,21.333a2.015,2.015,0,0,1-2-2V4H2A2.015,2.015,0,0,1,0,2,2.015,2.015,0,0,1,2,0H19.333a2.015,2.015,0,0,1,2,2V19.333A2.015,2.015,0,0,1,19.333,21.333Z" transform="translate(38 4.667)" fill="#fff"/>
+      <path id="Vector-4" data-name="Vector" d="M0,0H64V64H0Z" fill="none" opacity="0"/>
+    </g>
+  </g>
+</svg>

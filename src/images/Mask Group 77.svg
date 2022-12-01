@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="536" height="521" viewBox="0 0 536 521">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_677" data-name="Rectangle 677" width="536" height="521" transform="translate(1384 4297)" fill="none" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+    <linearGradient id="linear-gradient" x1="0.259" x2="1" y2="0.966" gradientUnits="objectBoundingBox">
+      <stop offset="0.5" stop-color="#f06143"/>
+      <stop offset="1" stop-color="#ff8a46"/>
+    </linearGradient>
+    <filter id="Path_8" x="33" y="-8" width="816.944" height="532.206" filterUnits="userSpaceOnUse">
+      <feOffset dy="20" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="10" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Mask_Group_77" data-name="Mask Group 77" transform="translate(-1384 -4297)" clip-path="url(#clip-path)">
+    <g id="Group_3337" data-name="Group 3337">
+      <g transform="matrix(1, 0, 0, 1, 1384, 4297)" filter="url(#Path_8)">
+        <path id="Path_8-2" data-name="Path 8" d="M3.462,175.1C27.715,61.243,124-9.422,242.852,1.053c58.256,5.157,383.136,99.269,383.136,99.269C730.172,114.5,768.2,217.076,754.1,321.179s-77.191,198.3-168.725,125.053c0,0-101.686-103.459-299.58-8.138C142.293,507.309-26.432,315.136,3.462,175.1Z" transform="translate(63.01 1.97)" fill="url(#linear-gradient)"/>
+      </g>
+      <g id="Group_2755" data-name="Group 2755" transform="translate(1379.43 4525.984)" opacity="0.16">
+        <g id="Group_2754" data-name="Group 2754" transform="translate(79.437 -321.994)">
+          <ellipse id="Ellipse_119" data-name="Ellipse 119" cx="112.973" cy="112.973" rx="112.973" ry="112.973" transform="translate(0.001 341.63)" fill="#fff"/>
+          <ellipse id="Ellipse_120" data-name="Ellipse 120" cx="85.538" cy="85.538" rx="85.538" ry="85.538" transform="translate(192.878 200.909)" fill="#fff"/>
+          <ellipse id="Ellipse_121" data-name="Ellipse 121" cx="60.502" cy="60.502" rx="60.502" ry="60.502" transform="translate(355.139 88.719)" fill="#fff"/>
+          <ellipse id="Ellipse_122" data-name="Ellipse 122" cx="44.386" cy="44.386" rx="44.386" ry="44.386" transform="translate(476.144 0)" fill="#fff"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

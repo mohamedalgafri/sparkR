@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="514.5" height="492" viewBox="0 0 514.5 492">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_165" data-name="Rectangle 165" width="514.5" height="492" transform="translate(1405.5 1962.341)" fill="none"/>
+    </clipPath>
+    <linearGradient id="linear-gradient" x1="0.006" y1="0.929" x2="0.992" y2="0.051" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#124f98"/>
+      <stop offset="1" stop-color="#47c9f3"/>
+    </linearGradient>
+    <filter id="Path_2208" x="-18.086" y="32.567" width="828.662" height="478.047" filterUnits="userSpaceOnUse">
+      <feOffset dy="20" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="10" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="shapblow2" transform="translate(-1405.5 -1962.341)" clip-path="url(#clip-path)">
+    <g transform="matrix(1, 0, 0, 1, 1405.5, 1962.34)" filter="url(#Path_2208)">
+      <path id="Path_2208-2" data-name="Path 2208" d="M765.117,263.087c-24.629,100.795-122.407,163.355-243.1,154.081-59.158-4.565-389.068-87.883-389.068-87.883C27.157,316.73-11.463,225.922,2.856,133.758S81.242-41.795,174.193,23.048c0,0,103.26,91.593,304.217,7.2C624.137-31.023,795.474,139.108,765.117,263.087Z" transform="translate(11.93 42.54)" fill="url(#linear-gradient)"/>
+    </g>
+  </g>
+</svg>

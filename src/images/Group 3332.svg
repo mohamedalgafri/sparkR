@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="816.944" height="532.206" viewBox="0 0 816.944 532.206">
+  <defs>
+    <filter id="Path_88" x="0" y="0" width="816.944" height="532.206" filterUnits="userSpaceOnUse">
+      <feOffset dy="20" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="10" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <linearGradient id="linear-gradient" x1="0.741" x2="0" y2="0.966" gradientUnits="objectBoundingBox">
+      <stop offset="0.5" stop-color="#f06143"/>
+      <stop offset="1" stop-color="#ff8a46"/>
+    </linearGradient>
+    <filter id="Path_8" x="0" y="0" width="816.944" height="532.206" filterUnits="userSpaceOnUse">
+      <feOffset dy="20" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="10" result="blur-2"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <clipPath id="clip-path">
+      <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Path_88)">
+        <path id="Path_88-2" data-name="Path 88" d="M753.453,175.1C729.2,61.243,632.912-9.422,514.064,1.053c-58.256,5.157-383.136,99.269-383.136,99.269C26.743,114.5-11.289,217.076,2.812,321.179S80,519.476,171.537,446.233c0,0,101.686-103.459,299.58-8.138C614.622,507.309,783.347,315.136,753.453,175.1Z" transform="translate(0.01 -0.03)" fill="#f06143"/>
+      </g>
+    </clipPath>
+  </defs>
+  <g id="Group_3332" data-name="Group 3332" transform="translate(288.85 -3669.794)">
+    <g id="minidil-2" transform="translate(-258.85 3679.794)">
+      <g id="Group_10" data-name="Group 10" transform="translate(0 0)">
+        <g transform="matrix(1, 0, 0, 1, -30, -10)" filter="url(#Path_8)">
+          <path id="Path_8-2" data-name="Path 8" d="M753.453,175.1C729.2,61.243,632.912-9.422,514.064,1.053c-58.256,5.157-383.136,99.269-383.136,99.269C26.743,114.5-11.289,217.076,2.812,321.179S80,519.476,171.537,446.233c0,0,101.686-103.459,299.58-8.138C614.622,507.309,783.347,315.136,753.453,175.1Z" transform="translate(30.01 9.97)" fill="url(#linear-gradient)"/>
+        </g>
+      </g>
+    </g>
+    <g id="Mask_Group_7" data-name="Mask Group 7" transform="translate(-258.85 3679.794)" clip-path="url(#clip-path)">
+      <g id="Group_539" data-name="Group 539" transform="translate(180.162 -95.01)" opacity="0.16">
+        <g id="Group_538" data-name="Group 538" transform="translate(0 0)">
+          <ellipse id="Ellipse_32" data-name="Ellipse 32" cx="112.973" cy="112.973" rx="112.973" ry="112.973" transform="translate(338.97 341.63)" fill="#fff"/>
+          <ellipse id="Ellipse_33" data-name="Ellipse 33" cx="85.538" cy="85.538" rx="85.538" ry="85.538" transform="translate(200.962 200.91)" fill="#fff"/>
+          <ellipse id="Ellipse_34" data-name="Ellipse 34" cx="60.502" cy="60.502" rx="60.502" ry="60.502" transform="translate(88.772 88.72)" fill="#fff"/>
+          <ellipse id="Ellipse_35" data-name="Ellipse 35" cx="44.386" cy="44.386" rx="44.386" ry="44.386" transform="translate(0 0)" fill="#fff"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

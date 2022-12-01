@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="814.095" height="543.085" viewBox="0 0 814.095 543.085">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.006" y1="0.5" x2="1.006" y2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ffac00"/>
+      <stop offset="0.841" stop-color="#ff5e00"/>
+    </linearGradient>
+  </defs>
+  <g id="تسجيل_الدخول_الشعار" data-name="تسجيل الدخول الشعار" transform="translate(0.498 0.5)">
+    <path id="Path_7354" data-name="Path 7354" d="M813.1,540.1a80.136,80.136,0,0,1-5.3-17.3C752.3,177.5,4.3,395.4.1,44-.1,27.9,0,13.3.5,0H813.1Z" transform="translate(0)" stroke="rgba(0,0,0,0)" stroke-miterlimit="10" stroke-width="1" fill="url(#linear-gradient)"/>
+    <path id="Path_7355" data-name="Path 7355" d="M115.122,375.1c29.1,57.5,119.1,60.2,153.8,5.6,35-54.9-3.9-115.4-65.8-120.9-55.1-4.8-112.4,51.1-91.7,106.9C112.522,369.6,113.822,372.4,115.122,375.1Z" transform="translate(423.875)" fill="#f5b03c"/>
+  </g>
+</svg>

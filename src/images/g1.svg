@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="77" height="71" viewBox="0 0 77 71">
+  <defs>
+    <filter id="Rectangle_386" x="0" y="0" width="77" height="71" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_390" data-name="Rectangle 390" width="31" height="32" transform="translate(0.281 0.157)" fill="#e9460a"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <path id="Path_7913" data-name="Path 7913" d="M13,0H36.628V31.886H13Z" transform="translate(-13)" fill="#e9460a" stroke="#e8505a" stroke-width="0"/>
+    </clipPath>
+  </defs>
+  <g id="g1" transform="translate(8.938 6)">
+    <g transform="matrix(1, 0, 0, 1, -8.94, -6)" filter="url(#Rectangle_386)">
+      <rect id="Rectangle_386-2" data-name="Rectangle 386" width="59" height="53" rx="20" transform="translate(9 6)" fill="#fff"/>
+    </g>
+    <g id="svgexport-30" transform="translate(13.781 9.844)" clip-path="url(#clip-path)">
+      <g id="Group_1685" data-name="Group 1685" transform="translate(3.717 0.425)" clip-path="url(#clip-path-2)">
+        <path id="Path_7912" data-name="Path 7912" d="M24.8,31.886a2.132,2.132,0,0,1-1.754-.893C22.279,30.069,13,19.291,13,11.8a11.8,11.8,0,1,1,23.6,0c0,7.493-9.247,18.271-10.076,19.2a2.075,2.075,0,0,1-1.722.893m0-29.75A9.655,9.655,0,0,0,15.136,11.8c0,6.856,9.534,17.7,9.662,17.824l.1.128v-.128c.1-.1,9.6-10.969,9.6-17.824A9.676,9.676,0,0,0,24.83,2.136H24.8Zm0,15.848A6.186,6.186,0,1,1,30.984,11.8,6.192,6.192,0,0,1,24.8,17.984m0-10.236a4.018,4.018,0,1,0,4.018,4.018A4.021,4.021,0,0,0,24.8,7.748" transform="translate(-13)" fill="#e9460a" stroke="#e8505a" stroke-width="0"/>
+      </g>
+    </g>
+  </g>
+</svg>
