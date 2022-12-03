@@ -6,25 +6,40 @@ import popmobnav from '../images/popmobnav.png'
 import lovely from '../images/lovely.svg'
 import vuesaxuser from '../images/vuesax-outline-user.svg'
 import outlinenormal from '../images/vuesax-outline-search-normal.svg'
-import {NavLink , useParams} from 'react-router-dom'
-
+import {NavLink ,Link} from 'react-router-dom'
+import search from "../images/vuesax-outline-search-normal.svg";
 
 
 const Navbar = () => {
 
   let [route , setRoute ] = useState();
 
-  let params =useParams();
-
+  // let params =useParams();
   useEffect(() => {
-    return () => {
-      setRoute(window.location.pathname)
-    };
-  }, [route])
+    setRoute(window.location.pathname)
+    console.log(route)
+}, [route])
 
 
-  console.log(route)
-  console.log(params.pathname)
+
+  
+  useEffect(() => {
+    require('../js/navdown')
+    require('../js/searchside')
+    require('../js/navmob')
+  }, [])
+
+  let hundlerclickNav = () => {
+    setRoute(window.location.pathname)
+    console.log(route)
+  }
+
+
+
+
+
+
+  // console.log(window.location.pathname)
 
   return (
 
@@ -44,18 +59,19 @@ const Navbar = () => {
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav me-auto ms-auto mb-2 gap-4 mb-lg-0">
             <li className="nav-item">
-              <NavLink className={`nav-link ${(isActive)=>isActive ? "active" : ""}`} aria-current="page" to="/"
+              <a href='/' className={`nav-link ${route == "/" ? "active" : ""}`}>الرئيسية</a>
+              {/* <NavLink className={`nav-link ${(isActive)=>isActive ? "active" : ""}`} aria-current="page" to="/"
                end >الرئيسية</NavLink
-              >
-            <div className="popnav" ></div>
+              > */}
+           {route == "/" ? (<div className="popnav" ></div>) : ""}
              
             </li>
-            <li className="nav-item">
+            <li className="nav-item" onClick={hundlerclickNav}>
               <NavLink className={`nav-link ${(isActive)=>isActive ? "active" : ""}`} to="/about">من نحن</NavLink>
               {(isActive)=>isActive ? (<div className="popnav" ></div>) :  ""}
-
+              {route == "/about" ? (<div className="popnav" ></div>) : ""}
             </li>
-            <li className="nav-item navdrob">
+            <li className="nav-item navdrob" onClick={hundlerclickNav}>
               <a className="nav-link" id="navdrob"  >البرامج</a>
 
               <div class="allpopnavpro">
@@ -81,11 +97,13 @@ const Navbar = () => {
                   </div>
                 </div>
             </li>
-            <li className="nav-item">
-              <NavLink className={`nav-link ${(isActive)=>isActive ? "active" : ""}`} to="mediaCenter" >المركز الاعلامي</NavLink>
+            <li className="nav-item" onClick={hundlerclickNav}>
+              <NavLink className={`nav-link ${(isActive)=>isActive ? "active" : ""}`} to="/mediaCenter" >المركز الاعلامي</NavLink>
+              {route == "/mediaCenter" ? (<div className="popnav" ></div>) : ""}
             </li>
-            <li className="nav-item">
-              <NavLink className={`nav-link ${(isActive)=>isActive ? "active" : ""}`}  to="connectUs" >تواصل معنا</NavLink>
+            <li className="nav-item" onClick={hundlerclickNav}>
+              <NavLink className={`nav-link ${(isActive)=>isActive ? "active" : ""}`}  to="/connectUs" >تواصل معنا</NavLink>
+              {route == "/connectUs" ? (<div className="popnav" ></div>) : ""}
             </li>
           </ul>
 
@@ -117,9 +135,9 @@ const Navbar = () => {
               </a>
 
               <div className="poplo">
-                <a href="signIn.html"><p>تسجيل دخول</p></a>
+                <Link to="/signIn"><p>تسجيل دخول</p></Link>
                 <hr />
-                <a href="createAccount.html"><p>انشاء حساب</p></a>
+                <Link to="/signIn/createAccount"><p>انشاء حساب</p></Link>
               </div>
             </div>
             <button className="btnt">
@@ -130,6 +148,73 @@ const Navbar = () => {
         </div>
       </div>
     </nav>
+
+
+    <navbar class="navbarMobile ">
+        <img class="bgmob" src={bgmob} alt="" />
+        <img class="popmobnav" src={popmobnav} alt="" />
+
+        <div class="bodyNavbarMobile">
+          <i class="bx bx-x closebtn"></i>
+
+          <div class="serchinputnavin">
+            <input type="text" placeholder="ما الذي تبحث عنه" />
+            <div class="imgsearf">
+              <img src={search} alt="" />
+            </div>
+          </div>
+
+          <ul class="navlink">
+            <li className='linkmob' >
+              <a href="/">
+             
+                الرئيسية
+              </a>
+            </li>
+            <li className="linkmob">
+              <Link to="/about">
+
+                من نحن
+              </Link>{" "}
+            </li>
+            <li class= "drobbavmob" >
+              <a>
+                البرامج</a>
+              <ul>
+                <li >
+                  <Link to="/climate">البيئة والمناخ</Link>
+                </li>
+                <li>
+            
+                  <Link to="/leaders">القيادات والمواطنة</Link>
+                </li>
+                <li>
+           
+                  <Link to="/digital"> التحول الرقمي</Link>
+                </li>
+              </ul>
+            </li>
+            <li className='linkmob'>
+              <Link to="/mediaCenter">
+                المركز الاعلامي
+              </Link>{" "}
+            </li>
+            <li >
+              <Link  to="/connectus">تواصل معنا</Link>{" "}
+            </li>
+            <li>
+              <Link to="/signIn"> تسجيل دخول</Link>{" "}
+            </li>
+            <li>
+              <Link to="/createAccount"> إنشاء حساب</Link>{" "}
+            </li>
+
+            <div class="btntnavmob">
+              <button>تـــبرع</button>
+            </div>
+          </ul>
+        </div>
+      </navbar>
 
 
 

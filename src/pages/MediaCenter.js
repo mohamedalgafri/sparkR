@@ -3,7 +3,7 @@ import React from 'react'
 import bgmeda from "../images/bgmeda.png";
 import bgaboutmob from "../images/bgaboutmob.png";
 import vuesax from "../images/vuesax-.svg";
-import {NavLink, Outlet} from 'react-router-dom'
+import {NavLink, Outlet , Link} from 'react-router-dom'
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 
@@ -27,7 +27,7 @@ const MediaCenter = () => {
 
             <div class="tappabout">
               <div class="aboutlink">
-                <a href="index.html">الرئسية</a>
+                <Link to="/">الرئسية</Link>
                 <div class="arrowbtn hedarr">
                   <i class="bx bx-left-arrow-alt movearr"></i>
                 </div>

@@ -4,13 +4,16 @@ import Rectangle331 from "../images/Rectangle 331.png";
 import sadown2 from "../images/sadown2.png";
 import imgblowcard from "../images/imgblowcard.svg";
 import Group1500 from "../images/Group 1500.svg";
+import { Link } from "react-router-dom";
+
 
 const Images = () => {
+
   return (
     <div>
       <section class="container bodymedia">
         <div class="allcardmedia ">
-          <a class="cardNews " href="imagesDetels">
+          <Link class="cardNews " to="/mediaCenter/images/imagesDetels">
             <img class="cardn1" src={Rectangle331} alt="" />
             <img class="shadown" src={sadown2} alt="" />
             <img class="imgblowcard" src={imgblowcard} alt="" />
@@ -20,9 +23,9 @@ const Images = () => {
             </div>
 
             <p>السيرك كفن يطرح قضايا مجتمعيّة السيرك للجميع</p>
-          </a>
+          </Link>
 
-          <a class="cardNews " href="mediaCenter4.html">
+          <Link class="cardNews " to="/mediaCenter/images/imagesDetels">
             <img class="cardn1" src={Rectangle331} alt="" />
             <img class="shadown" src={sadown2} alt="" />
             <img class="imgblowcard" src={imgblowcard} alt="" />
@@ -32,9 +35,9 @@ const Images = () => {
             </div>
 
             <p>السيرك كفن يطرح قضايا مجتمعيّة السيرك للجميع</p>
-          </a>
+          </Link>
 
-          <a class="cardNews " href="mediaCenter4.html">
+          <Link class="cardNews " to="/mediaCenter/images/imagesDetels">
             <img class="cardn1" src={Rectangle331} alt="" />
             <img class="shadown" src={sadown2} alt="" />
             <img class="imgblowcard" src={imgblowcard} alt="" />
@@ -44,7 +47,7 @@ const Images = () => {
             </div>
 
             <p>السيرك كفن يطرح قضايا مجتمعيّة السيرك للجميع</p>
-          </a>
+          </Link>
         </div>
 
         <div class="navmedia">

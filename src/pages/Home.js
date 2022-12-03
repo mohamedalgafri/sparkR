@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 
 import minidil from "../images/minidil.png";
 import minidil22 from "../images/minidil22.png";
@@ -43,13 +43,24 @@ import Our_programsSwiper from "../components/swiper/Our_programsSwiper";
 import SparknuMobSwiper from "../components/swiper/SparknuMobSwiper";
 import NewsMobSwiper from "../components/swiper/NewsMobSwiper";
 
-import "../../src/js/main"
+import "../js/navjs"
 
 
 import {Link} from "react-router-dom";
 
 
 const Home = () => {
+
+  useEffect(() => {
+    require('../js/sliderHeder')
+  }, [])
+
+  let [dataall , setdataall] = useState(null);
+  let [filtered , setFilered] = useState(null);
+  let [num , setnum ]= useState(0);
+
+
+
   return (
     <>
 
@@ -151,7 +162,7 @@ const Home = () => {
           أنفسهم
         </p>
 
-        <a href="aboutUs.html#aboutUs">
+        <a href="/about">
           <div className="btnall">
             <p>عرض المزيد</p>
             <div className="arrowbtn">
@@ -192,7 +203,111 @@ const Home = () => {
   </div>
 </section>
 
+<section class="newNews bottom">
+        <div class="allCardNews container">
+          <div class="topCardNews">
+            <div  class="rightSideCard">
+              <div  class="cardNews cardNew1">
+              <img class="cardn1" src={Rectangle_32} alt="" />
+                <img class="shadown" src={shadown} alt="" />
+                <p>lorem loremloremloremloremremlorem</p>
+   
+              </div>
+              <div  class="cardNews cardNew2">
+              <img  class="cardn1" src={Rectangle_32} alt="" />
+                <img class="shadown" src={sadown2} alt="" />
+                <p>loremloremloremloremloremloremlrem</p>
 
+              </div>
+            </div>
+            <div class="leftSideCard">
+              <div class="titletexthed abouttit">
+                <p>المركز الاعلامي</p>
+                <div class="linetit"></div>
+              </div>
+
+              {
+                num == 0 ? (<h1>آخر أخبارنا</h1>) : '' ||
+                num == 1 ? (<h1>آخر الفعاليات</h1>) : ''||
+                num == 2 ? (<h1>آخر الصور</h1>) : ''||
+                num == 3 ? (<h1>آخر الفديوهات</h1>) : ''
+              }
+
+      
+
+              <div class="allTepNews">
+                <div  class="textNews">
+                  <div  class={`textnew ${num == 0 ? "active" : "" } `}>
+                    {num == 0 ? (<img  src={arrow_left} alt="" />) : ''}
+                    <a onClick={()=>setnum(0)}>
+                      <p class=" ">الاخبار</p>
+                    </a>
+                  </div>
+                  <div class={`textnew ${num == 1 ? "active" : "" } `}>
+                    {num == 1 ? (<img src={arrow_left} alt="" />) : ''}
+                    <a onClick={()=>setnum(1)}>
+                      <p class="">الفعاليات</p>
+                    </a>
+                  </div>
+                  <div class={`textnew ${num == 2 ? "active" : "" } `}>
+                    {num == 2 ? (<img src={arrow_left} alt="" />) : ''}
+                    <a onClick={()=>setnum(2)}>
+                      <p class="">الصور</p>
+                    </a>
+                  </div>
+                  <div class={`textnew ${num == 3 ? "active" : "" } `}>
+                    {num == 3 ? (<img src={arrow_left} alt="" />) : ''}
+                    <a onClick={()=>setnum(3)}>
+                      {" "}
+                      <p class="">الفيديوهات</p>
+                    </a>
+                  </div>
+                </div>
+
+                <div class="btnNews">
+                  <Link href={
+                      num == 0 ? "/mediaCenter" : '' ||
+                      num == 1 ? "/mediaCenter/events" : ''||
+                      num == 2 ? "/mediaCenter/images" : ''||
+                      num == 3 ? "/mediaCenter/videos" : ''
+                  }>
+                    <div class="btnall ">
+                      <p>عرض المزيد</p>
+                      <div class="arrowbtn">
+                        <i class="bx bx-left-arrow-alt movearr"></i>
+                      </div>
+                    </div>
+                  </Link>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="downCardNews">
+            <div class="cardNews cardNew3">
+              <img  class="cardn1" src={Rectangle_32} alt="" />
+              <img class="shadown" src={shadown} alt="" />
+              <p>loremloremloremloremlorememlorem</p>
+
+            </div>
+            <div class="cardNews cardNew4">
+            <img  class="cardn1" src={Rectangle_32} alt="" />
+              <img class="shadown" src={shaddo} alt="" />
+              <p>loremloremloremloremloreolorem</p>
+
+            </div>
+            <div class="cardNews cardNew5">
+            <img  class="cardn1" src={Rectangle_32} alt="" />
+              <img class="shadown" src={sadown2} alt="" />
+               <p>loremloremloremloremloremremlorem</p>
+
+            </div>
+          </div>
+        </div>
+        {/* <!-- <div class="imgleftt">
+        <img src="images/Group 10.png" alt="">
+      </div> --> */}
+      </section>
 
 <section className="newNewsMob bottom">
   <div className="leftSideCard">
