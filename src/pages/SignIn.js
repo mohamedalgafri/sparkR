@@ -30,30 +30,30 @@ const SignIn = () => {
 
   return (
     <div>
-      <div class="imgbb bomo">
+      <div className="imgbb bomo">
         <img src={gfh} alt="" />
       </div>
 
-      <img class="popp" src={popp} alt="" />
+      <img className="popp" src={popp} alt="" />
 
-      <nav class="navhead container">
+      <nav className="navhead container">
         <a href="/">
           {" "}
           <img src={logo} alt="" />
         </a>
 
-        <div class="leftnavb">
+        <div className="leftnavb">
           <Link to="/signIn/createAccount">لست عضواً؟</Link>
-          <Link to="/signIn/createAccount" class="btnlog">
+          <Link to="/signIn/createAccount" className="btnlog">
             <p>انشاء حساب</p>
-            <i class="bx bx-arrow-back"></i>
+            <i className="bx bx-arrow-back"></i>
           </Link>
         </div>
       </nav>
 
-      <section class="bodycre container ">
-        <div class="rightbodycre rrsigh">
-          <div class="rightcontact righfog ">
+      <section className="bodycre container ">
+        <div className="rightbodycre rrsigh">
+          <div className="rightcontact righfog ">
             <h2>تسجيل الدخول</h2>
             <form action="" onSubmit={formSubmitHandler}>
               <input
@@ -67,15 +67,15 @@ const SignIn = () => {
                 ref={passwordLoginRef}
               />
 
-              <a class="floggg" href="">
+              <a className="floggg" href="">
                 هل نسيت كلمة المرور؟
               </a>
 
               <div href="indexprof.html">
-                <button type="submit" class="btnall">
+                <button type="submit" className="btnall">
                   <p>تسجيل دخول</p>
-                  <div class="arrowbtn">
-                    <i class="bx bx-left-arrow-alt movearr"></i>
+                  <div className="arrowbtn">
+                    <i className="bx bx-left-arrow-alt movearr"></i>
                   </div>
                 </button>
               </div>
@@ -84,11 +84,11 @@ const SignIn = () => {
 
           <img src={Path_7395} alt="" />
 
-          <div class="leftnavb lemob">
+          <div className="leftnavb lemob">
             <a href="createAccount.html">لست عضواً؟</a>
-            <a href="createAccount.html" class="btnlog">
+            <a href="createAccount.html" className="btnlog">
               <p>انشاء حساب</p>
-              <i class="bx bx-arrow-back"></i>
+              <i className="bx bx-arrow-back"></i>
             </a>
           </div>
         </div>

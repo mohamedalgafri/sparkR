@@ -28,32 +28,32 @@ const Climate = () => {
   return (
     <>
     <header>
-<div class="imghederc">
-    <img    class="imgheader" src={imgbgclime} alt=""/>
-    <img    class="imgheadermob imgclimate" src={bgmob2} alt=""/>
+<div className="imghederc">
+    <img    className="imgheader" src={imgbgclime} alt=""/>
+    <img    className="imgheadermob imgclimate" src={bgmob2} alt=""/>
 </div>
 
-<div class="allcontantheder bottom ">
-    <div class="contantheder container">
-        <div class="rightsideheder " >
-            <div class="linkhed">
+<div className="allcontantheder bottom ">
+    <div className="contantheder container">
+        <div className="rightsideheder " >
+            <div className="linkhed">
                 <a  href="/">  الرئيسية / </a>
                 <p>البرامج / </p>
-                <p class="coloryl"> &nbsp; البيئة والمناخ </p>
+                <p className="coloryl"> &nbsp; البيئة والمناخ </p>
             </div>
 
             <h1>البيئة والمناخ</h1>
-            <p class="textcontanthed" >يدعم برنامج البيئة , المناخ الإجراءات التي تمكّن الشباب من ترجمة برامج تغير المناخ إلى سياسات فعالة لها تأثير قابل للقياس على رفاه الشباب ، ,وبما يضمن  تجنيب الأجيال المقبلة آثار تغير المناخ القاسية</p>
-            <div class="btnall">
+            <p className="textcontanthed" >يدعم برنامج البيئة , المناخ الإجراءات التي تمكّن الشباب من ترجمة برامج تغير المناخ إلى سياسات فعالة لها تأثير قابل للقياس على رفاه الشباب ، ,وبما يضمن  تجنيب الأجيال المقبلة آثار تغير المناخ القاسية</p>
+            <div className="btnall">
                 <p> شاهد فيديو</p>
-                <div class="arrowbtn">
+                <div className="arrowbtn">
                   <img    src={Polygon} alt=""/>
-                  {/* <!-- <i class="bx bx-left-arrow-alt movearr"></i> --> */}
+                  {/* <!-- <i className="bx bx-left-arrow-alt movearr"></i> --> */}
                 </div>
             </div>
 
         </div>
-        <div class="leftsideheder ">
+        <div className="leftsideheder ">
             <img    src={imgheaderf} alt=""/>
         </div>
     </div>
@@ -63,24 +63,24 @@ const Climate = () => {
 </header>
 
 
-<section class="projectsSection">
+<section className="projectsSection">
 
 
-<div class="allprojectsSection container">
-    <div class="titletexthed abouttit">
+<div className="allprojectsSection container">
+    <div className="titletexthed abouttit">
         <p>البيئة والمناخ</p>
-        <div class="linetit"></div>
+        <div className="linetit"></div>
       </div>
       <h1> المشاريع</h1>
 
 </div>
 
-<div class="imgprojectsSection container ">
+<div className="imgprojectsSection container ">
 
-    <img    class="rightimgpro" src={rightimgpro} alt=""/>
-    <img    class="leftimgpro" src={leftimgpro} alt=""/>
+    <img    className="rightimgpro" src={rightimgpro} alt=""/>
+    <img    className="leftimgpro" src={leftimgpro} alt=""/>
 
-    <div class="allcardpro bottom ">
+    <div className="allcardpro bottom ">
 
     <ClimateSwiper/>
 
@@ -92,30 +92,30 @@ const Climate = () => {
 </section>
 
 
-<section class="competitions container bottom">
-<div class="rightsideCompetitions">
+<section className="competitions container bottom">
+<div className="rightsideCompetitions">
 
-  {/* <img    class="shappp" src={shappp} alt=""/> */}
-  <img    class="shappp" src={minidil_1} alt=""/>
-    <div class="leftsideabout">
+  {/* <img    className="shappp" src={shappp} alt=""/> */}
+  <img    className="shappp" src={minidil_1} alt=""/>
+    <div className="leftsideabout">
 
-        <div class="imgleftus">
-          <div class="imgtopus">
-            <img    class="imgpp1" src={Rectangle_21} alt="" />
-            <img    class="imgpp2" src={Rectangle_143} alt="" />
+        <div className="imgleftus">
+          <div className="imgtopus">
+            <img    className="imgpp1" src={Rectangle_21} alt="" />
+            <img    className="imgpp2" src={Rectangle_143} alt="" />
           </div>
-          <div class="imgtopus">
-            <img    class="imgpp3" src={Rectangle_20} alt="" />
-            <img    class="imgpp4" src={Rectangle_22} alt="" />
+          <div className="imgtopus">
+            <img    className="imgpp3" src={Rectangle_20} alt="" />
+            <img    className="imgpp4" src={Rectangle_22} alt="" />
           </div>
         </div>
       </div>
 
 </div>
-<div class="leftsideCompetitions">
-    <div class="titletexthed abouttit">
+<div className="leftsideCompetitions">
+    <div className="titletexthed abouttit">
         <p> البيئة والمناخ</p>
-        <div class="linetit"></div>
+        <div className="linetit"></div>
       </div>
       <h1> مسابقة تحدى المناخ</h1>
 
@@ -127,29 +127,29 @@ const Climate = () => {
 </section>
 
 
-<section class="explorerSection container bottom">
-<div class="titleexplorer">
-        <div class="righttitleexplorer">
-            <div class="titletexthed abouttit">
+<section className="explorerSection container bottom">
+<div className="titleexplorer">
+        <div className="righttitleexplorer">
+            <div className="titletexthed abouttit">
                 <p> البيئة والمناخ</p>
-                <div class="linetit"></div>
+                <div className="linetit"></div>
               </div>
               <h1> انا مستكشف للطبيعة</h1>
 
 
         </div>
-        <div class="lefttitleexplorer">
-            <div class="btnall">
+        <div className="lefttitleexplorer">
+            <div className="btnall">
                 <p> شارك صور</p>
-                <div class="arrowbtn">
-                  <img    src={share} alt="" class=""/>
+                <div className="arrowbtn">
+                  <img    src={share} alt="" className=""/>
                 </div>
             </div>
         </div>
 </div>
 
-<div class="bodyexplorer">
-    <div class="rightbodyexplorer">
+<div className="bodyexplorer">
+    <div className="rightbodyexplorer">
         <p>
             يمكن لكل ملاحظة أن تساهم في علم التنوع البيولوجي،  شاركنا ملاحظاتك ،  التقط صور  من بيئتك ،  وانشرها عبر  معرضك العلمي الشخصي  لتساعدنا على التعرف على النباتات والحيوانات من حولك. تواصل مع مجتمع الشغوفين بالطبيعة والذين يمكنهم مساعدتك في معرفة المزيد! علاوة على ذلك، من خلال تسجيل ومشاركة ملاحظاتك ، ستنشئ بيانات ذات جودة بحثية للعلماء الذين يعملون لفهم الطبيعة وحمايتها بشكل أفضل.
             كل ما عليك فعله هو الملاحظة وارسال صورة مرفقة بمعلومات كنت قد اكتشفتها  وترغب في مشاركتها مع مجتمع الشغوفين بالطبيعة . 
@@ -157,28 +157,28 @@ const Climate = () => {
         </p>
 
     </div>
-    <div class="leftbodyexplorer">
+    <div className="leftbodyexplorer">
 
-        <div class="allcardbodyexplorer">
-            <div class="cardbodyexplorer">
+        <div className="allcardbodyexplorer">
+            <div className="cardbodyexplorer">
                 <img    src={Rectangle25} alt=""/>
             </div>
-            <div class="cardbodyexplorer hiddenmob">
+            <div className="cardbodyexplorer hiddenmob">
                 <img    src={Rectangle151} alt=""/>
             </div>
-            <div class="cardbodyexplorer ">
+            <div className="cardbodyexplorer ">
                 <img    src={Rectangle152} alt=""/>
             </div>
 
         </div>
-        <div class="allcardbodyexplorer">
-            <div class="cardbodyexplorer ">
+        <div className="allcardbodyexplorer">
+            <div className="cardbodyexplorer ">
                 <img    src={Rectangle155} alt=""/>
             </div>
-            <div class="cardbodyexplorer hiddenmob">
+            <div className="cardbodyexplorer hiddenmob">
                 <img    src={Rectangle154} alt=""/>
             </div>
-            <div class="cardbodyexplorer ">
+            <div className="cardbodyexplorer ">
                 <img    src={Rectangle153} alt=""/>
             </div>
 
@@ -195,14 +195,14 @@ const Climate = () => {
 </div>
 </section>
 
-<section class="titletextspark top ">
-<img    class="imgsht" src={Ellipse_54} alt=""/>
-<div class="alltitletextspark  container">
-    <div class="righttextspark">
-        <h1>كلام في <br/> <div class="linetext"></div>
+<section className="titletextspark top ">
+<img    className="imgsht" src={Ellipse_54} alt=""/>
+<div className="alltitletextspark  container">
+    <div className="righttextspark">
+        <h1>كلام في <br/> <div className="linetext"></div>
            <span> البيئة والمناخ </span></h1>
     </div>
-    <div class="lefttextspark">
+    <div className="lefttextspark">
       <img    src={tex} alt=""/>
         <p>منصة حرة  تدعم نشر موضوعات ومقالات  حول البيئة والتغير المناخي، والقضايا ذات العلاقة، وتشجع على المشاركة وتبادل الآراء</p>
         <img    src={tex2} alt=""/>

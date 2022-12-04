@@ -7,31 +7,31 @@ import Group from "../images/Group.svg";
 
 const Videos = () => {
   return (
-    <section class="container bodymedia">
-    <div class="allcardmedia ">
+    <section className="container bodymedia">
+    <div className="allcardmedia ">
       <div
-        class="cardNews "
+        className="cardNews "
         data-bs-toggle="modal"
         data-bs-target="#exampleModal"
       >
-        <img  class="cardn1" src={Rectangle331} alt="" />
-        <img  class="shadown" src={sadown2} alt="" />
-        <img  class="imgblowcard" src={imgblowcard} alt="" />
-        <div class="vedimg">
+        <img  className="cardn1" src={Rectangle331} alt="" />
+        <img  className="shadown" src={sadown2} alt="" />
+        <img  className="imgblowcard" src={imgblowcard} alt="" />
+        <div className="vedimg">
           <img  src={Group} alt="" />
         </div>
 
         <p>السيرك كفن يطرح قضايا مجتمعيّة السيرك للجميع</p>
       </div>
       <div
-        class="cardNews "
+        className="cardNews "
         data-bs-toggle="modal"
         data-bs-target="#exampleModal"
       >
-        <img  class="cardn1" src={Rectangle331} alt="" />
-        <img  class="shadown" src={sadown2} alt="" />
-        <img  class="imgblowcard" src={imgblowcard} alt="" />
-        <div class="vedimg">
+        <img  className="cardn1" src={Rectangle331} alt="" />
+        <img  className="shadown" src={sadown2} alt="" />
+        <img  className="imgblowcard" src={imgblowcard} alt="" />
+        <div className="vedimg">
           <img  src={Group} alt="" />
         </div>
 
@@ -39,84 +39,84 @@ const Videos = () => {
       </div>
 
       <div
-        class="cardNews "
+        className="cardNews "
         data-bs-toggle="modal"
         data-bs-target="#exampleModal"
       >
-        <img  class="cardn1" src={Rectangle331} alt="" />
-        <img  class="shadown" src={sadown2} alt="" />
-        <img  class="imgblowcard" src={imgblowcard} alt="" />
-        <div class="vedimg">
+        <img  className="cardn1" src={Rectangle331} alt="" />
+        <img  className="shadown" src={sadown2} alt="" />
+        <img  className="imgblowcard" src={imgblowcard} alt="" />
+        <div className="vedimg">
           <img  src={Group} alt="" />
         </div>
 
         <p>السيرك كفن يطرح قضايا مجتمعيّة السيرك للجميع</p>
       </div>
       <div
-        class="cardNews "
+        className="cardNews "
         data-bs-toggle="modal"
         data-bs-target="#exampleModal"
       >
-        <img  class="cardn1" src={Rectangle331} alt="" />
-        <img  class="shadown" src={sadown2} alt="" />
-        <img  class="imgblowcard" src={imgblowcard} alt="" />
-        <div class="vedimg">
+        <img  className="cardn1" src={Rectangle331} alt="" />
+        <img  className="shadown" src={sadown2} alt="" />
+        <img  className="imgblowcard" src={imgblowcard} alt="" />
+        <div className="vedimg">
           <img  src={Group} alt="" />
         </div>
 
         <p>السيرك كفن يطرح قضايا مجتمعيّة السيرك للجميع</p>
       </div>
       <div
-        class="cardNews "
+        className="cardNews "
         data-bs-toggle="modal"
         data-bs-target="#exampleModal"
       >
-        <img  class="cardn1" src={Rectangle331} alt="" />
-        <img  class="shadown" src={sadown2} alt="" />
-        <img  class="imgblowcard" src={imgblowcard} alt="" />
-        <div class="vedimg">
+        <img  className="cardn1" src={Rectangle331} alt="" />
+        <img  className="shadown" src={sadown2} alt="" />
+        <img  className="imgblowcard" src={imgblowcard} alt="" />
+        <div className="vedimg">
           <img  src={Group} alt="" />
         </div>
 
         <p>السيرك كفن يطرح قضايا مجتمعيّة السيرك للجميع</p>
       </div>
       <div
-        class="cardNews "
+        className="cardNews "
         data-bs-toggle="modal"
         data-bs-target="#exampleModal"
       >
-        <img  class="cardn1" src={Rectangle331} alt="" />
-        <img  class="shadown" src={sadown2} alt="" />
-        <img  class="imgblowcard" src={imgblowcard} alt="" />
-        <div class="vedimg">
+        <img  className="cardn1" src={Rectangle331} alt="" />
+        <img  className="shadown" src={sadown2} alt="" />
+        <img  className="imgblowcard" src={imgblowcard} alt="" />
+        <div className="vedimg">
           <img  src={Group} alt="" />
         </div>
 
         <p>السيرك كفن يطرح قضايا مجتمعيّة السيرك للجميع</p>
       </div>
       <div
-        class="cardNews "
+        className="cardNews "
         data-bs-toggle="modal"
         data-bs-target="#exampleModal"
       >
-        <img  class="cardn1" src={Rectangle331} alt="" />
-        <img  class="shadown" src={sadown2} alt="" />
-        <img  class="imgblowcard" src={imgblowcard} alt="" />
-        <div class="vedimg">
+        <img  className="cardn1" src={Rectangle331} alt="" />
+        <img  className="shadown" src={sadown2} alt="" />
+        <img  className="imgblowcard" src={imgblowcard} alt="" />
+        <div className="vedimg">
           <img  src={Group} alt="" />
         </div>
 
         <p>السيرك كفن يطرح قضايا مجتمعيّة السيرك للجميع</p>
       </div>
       <div
-        class="cardNews "
+        className="cardNews "
         data-bs-toggle="modal"
         data-bs-target="#exampleModal"
       >
-        <img  class="cardn1" src={Rectangle331} alt="" />
-        <img  class="shadown" src={sadown2} alt="" />
-        <img  class="imgblowcard" src={imgblowcard} alt="" />
-        <div class="vedimg">
+        <img  className="cardn1" src={Rectangle331} alt="" />
+        <img  className="shadown" src={sadown2} alt="" />
+        <img  className="imgblowcard" src={imgblowcard} alt="" />
+        <div className="vedimg">
           <img  src={Group} alt="" />
         </div>
 
@@ -124,27 +124,27 @@ const Videos = () => {
       </div>
     </div>
 
-    <div class="navmedia">
+    <div className="navmedia">
       <nav aria-label="Page navigation  ">
-        <ul class="pagination">
-          <li class="page-item">
-            <a class="page-link" href="#" aria-label="Previous">
-              <i class="bx bx-chevron-right"></i>
+        <ul className="pagination">
+          <li className="page-item">
+            <a className="page-link" href="#" aria-label="Previous">
+              <i className="bx bx-chevron-right"></i>
             </a>
           </li>
-          <li class="page-item active">
-            <a class="page-link" href="#">
+          <li className="page-item active">
+            <a className="page-link" href="#">
               1
             </a>
           </li>
-          <li class="page-item">
-            <a class="page-link" href="#">
+          <li className="page-item">
+            <a className="page-link" href="#">
               2
             </a>
           </li>
-          <li class="page-item">
-            <a class="page-link" href="#" aria-label="Next">
-              <i class="bx bx-chevron-left"></i>
+          <li className="page-item">
+            <a className="page-link" href="#" aria-label="Next">
+              <i className="bx bx-chevron-left"></i>
             </a>
           </li>
         </ul>
@@ -153,15 +153,15 @@ const Videos = () => {
 
     {/* <!-- Modal --> */}
     <div
-      class="modal modelfed fade"
+      className="modal modelfed fade"
       id="exampleModal"
       tabindex="-1"
       aria-labelledby="exampleModalLabel"
       aria-hidden="true"
     >
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="modal-body">
+      <div className="modal-dialog">
+        <div className="modal-content">
+          <div className="modal-body">
             <iframe
               width="100%"
               height="600px"

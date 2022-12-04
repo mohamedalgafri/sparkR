@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 
 import send2 from '../images/send-2.svg';
 import call from '../images/vuesax-linear-call.svg';
@@ -6,16 +6,20 @@ import global from '../images/vuesax-linear-global.svg';
 import sms from '../images/vuesax-linear-sms.svg';
 import home2 from '../images/home-2.svg';
 import logofoo from '../images/logofoo.svg';
-import {Link} from 'react-router-dom'
+import {Link , useLocation} from 'react-router-dom'
 
 
 const Footer = () => {
+
+  let locationn = useLocation();
+
+
   return (
-    <footer class="footer bottom   ">
-    <div class="container">
-      <div class="row allFooter">
-        <div class="col-md-12 col-lg-4">
-          <img class="logofooter" src={logofoo} alt="" />
+    <footer class={`footer bottom  ${ locationn.pathname == "/climate" ? "climate" : ""} || ${ locationn.pathname == "/digital" ? "digital" : ""}   `}>
+    <div className="container">
+      <div className="row allFooter">
+        <div className="col-md-12 col-lg-4">
+          <img className="logofooter" src={logofoo} alt="" />
           <p>
             هي منظمة تنموية فلسطينية غير حكومية مستقلة تعمل في مجالات التعليم
             وريادة الأعمال والتحول الرقمي والثقافة والتراث؛ تأسست في 2018
@@ -24,16 +28,16 @@ const Footer = () => {
             يستطيع فيه جميع
           </p>
 
-          <div class="btnall btnallfooter">
+          <div className="btnall btnallfooter">
             <p>تبرع</p>
-            <div class="arrowbtn">
-              <i class="bx bx-left-arrow-alt movearr"></i>
+            <div className="arrowbtn">
+              <i className="bx bx-left-arrow-alt movearr"></i>
             </div>
           </div>
         </div>
-        <div class="col-md-12 col-lg-4 listfooter">
-          <div class="row ">
-            <div class="col-4 collist">
+        <div className="col-md-12 col-lg-4 listfooter">
+          <div className="row ">
+            <div className="col-4 collist">
               <h5>روابط مهمة</h5>
               <ul>
                 <Link to="/"><li>الرئيسية</li></Link>
@@ -43,7 +47,7 @@ const Footer = () => {
               </ul>
             </div>
 
-            <div class="col-4 collist">
+            <div className="col-4 collist">
               <h5>المركز الاعلامي</h5>
               <ul>
                 <Link href="/mediaCenter"><li>الاخبار</li></Link>
@@ -53,7 +57,7 @@ const Footer = () => {
               </ul>
             </div>
 
-            <div class="col-4 collist">
+            <div className="col-4 collist">
               <h5>تابعنا على</h5>
               <ul>
                 <a href=""><li>لينكد ان</li></a>
@@ -64,8 +68,8 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        <div class="col-md-12 col-lg-4 addresfooter">
-          <div class="">
+        <div className="col-md-12 col-lg-4 addresfooter">
+          <div className="">
             <h5>عنواننا</h5>
             <ul>
 
@@ -100,17 +104,17 @@ const Footer = () => {
         
       </div>
 
-      <div class="footerdown">
+      <div className="footerdown">
         <h6>اشترك مجاناً في نشراتنا الإخبارية على البريد الالكتروني</h6>
-        <form class="inputemail"> 
+        <form className="inputemail"> 
           <input type="email" placeholder="الرجاء ادخال بريدك الالكتروني"/>
-          <button class="button-88" role="button"><img src={send2} alt=""/></button>
+          <button className="button-88" role="button"><img src={send2} alt=""/></button>
         </form>
       </div>
-      <div class="Copyrights">
+      <div className="Copyrights">
         <p>جميع حقوق الطبع والنشر محفوظة 2023</p>
       </div>
-      <div class="linewfooter"></div>
+      <div className="linewfooter"></div>
     </div>
   </footer>
   )

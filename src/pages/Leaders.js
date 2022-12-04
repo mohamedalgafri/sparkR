@@ -20,52 +20,52 @@ const Leaders = () => {
   return (
     <>
       <header>
-        <div class="imghederc">
-          <img  class="imgheader" src={bgred1} alt="" />
-          <img  class="imgheadermob  imgclimate" src={bgmobred} alt="" />
+        <div className="imghederc">
+          <img  className="imgheader" src={bgred1} alt="" />
+          <img  className="imgheadermob  imgclimate" src={bgmobred} alt="" />
         </div>
 
-        <div class="allcontantheder">
-          <div class="contantheder container right">
-            <div class="rightsideheder rred ">
-              <div class="linkhed coored">
+        <div className="allcontantheder">
+          <div className="contantheder container right">
+            <div className="rightsideheder rred ">
+              <div className="linkhed coored">
                 <a href="/"> الرئيسية / </a>
                 <p>البرامج / </p>
-                <p class="coloryl "> &nbsp; برنامج القيادات والمواطنة </p>
+                <p className="coloryl "> &nbsp; برنامج القيادات والمواطنة </p>
               </div>
 
               <h1>برنامج القيادات الشابة والمواطنة الإيجابية</h1>
-              <p class="textcontanthed">
+              <p className="textcontanthed">
                 تركز رؤية برنامج القيادات الشابة والمواطنة الإيجابية حول " شباب
                 ويافعين قادة ومواطنون فاعلون ومسؤولون قادرون على إدراك الواقع
                 الذي يعيشون فيه على المستوى المحلي والعالمي وإحداث التغيير من
                 أجل تحقيق تنمية مستدامة في مجتمعاتهم.
               </p>
-              <div class="btnall">
+              <div className="btnall">
                 <p> شاهد فيديو</p>
-                <div class="arrowbtn">
+                <div className="arrowbtn">
                   <img  src={Polygon_3} alt="" />
-                  {/* <!-- <i class="bx bx-left-arrow-alt movearr"></i> --> */}
+                  {/* <!-- <i className="bx bx-left-arrow-alt movearr"></i> --> */}
                 </div>
               </div>
             </div>
-            <div class="leftsideheder left">
+            <div className="leftsideheder left">
               <img  src={Basketball_camp} alt="" />
             </div>
           </div>
         </div>
       </header>
 
-      <section class="hedtittes ">
-        <dev class="hedtittestimg container">
-          <div class="rightsidehead right">
-            <div class="titletexthed  abouttit">
+      <section className="hedtittes ">
+        <dev className="hedtittestimg container">
+          <div className="rightsidehead right">
+            <div className="titletexthed  abouttit">
               <p>برنامج القيادات والمواطنة </p>
-              <div class="linetit linetitblow"></div>
+              <div className="linetit linetitblow"></div>
             </div>
-            <h1 class="redtext"> مبادرات شبابية</h1>
+            <h1 className="redtext"> مبادرات شبابية</h1>
 
-            <div class="texthedtittestimg">
+            <div className="texthedtittestimg">
               <p>
                 مبادرات ابداعية شبابية تتبني افكار شبابية عصرية لمواجهة التحديات
                 التي تمثل معيقات تحد من فعالية دور الشباب وتعزيز مشاركته المدنية
@@ -80,30 +80,30 @@ const Leaders = () => {
             </div>
           </div>
 
-          <div class="leftsidehead left">
+          <div className="leftsidehead left">
             <img  src={Rectangle236} alt="" />
           </div>
         </dev>
       </section>
 
-      <section class="sledersectionred container bottom swiperleader">
-        <h1 class="redtext">مبادرات شـبابـية</h1>
+      <section className="sledersectionred container bottom swiperleader">
+        <h1 className="redtext">مبادرات شـبابـية</h1>
 
         {/* <!-- Swiper --> */}
         <LeadersSwiper/>
       </section>
 
 
-      <section class="hedtittes">
-      <dev class="hedtittestimg hedtittestimgrev container">
-        <div class="rightsidehead left">
-          <div class="titletexthed  abouttit">
+      <section className="hedtittes">
+      <dev className="hedtittestimg hedtittestimgrev container">
+        <div className="rightsidehead left">
+          <div className="titletexthed  abouttit">
               <p>برنامج القيادات والمواطنة </p>
-              <div class="linetit linetitblow"></div>
+              <div className="linetit linetitblow"></div>
             </div>
-            <h1 class="redtext"> مبادرات شبابية</h1>
+            <h1 className="redtext"> مبادرات شبابية</h1>
 
-            <div class="texthedtittestimg">
+            <div className="texthedtittestimg">
               <p>
                   مبادرات ابداعية شبابية تتبني افكار شبابية عصرية لمواجهة التحديات التي تمثل معيقات تحد من فعالية دور الشباب وتعزيز مشاركته المدنية في احداث التغيير الايجابي والتنمية المنشودة داخل المجتمع الفلسطيني على مختلف الاصعدة السياسية والاقتصادية 
                   والاجتماعية
@@ -118,14 +118,14 @@ const Leaders = () => {
       </div>
 
 
-        <div class="leftsidehead right">
+        <div className="leftsidehead right">
           <img  src={Rectangle236} alt=""/>
       </div>
       </dev>
     </section>
 
-    <section class="sledersectionred container bottom swiperleader">
-        <h1 class="redtext">مبادرات شـبابـية</h1>
+    <section className="sledersectionred container bottom swiperleader">
+        <h1 className="redtext">مبادرات شـبابـية</h1>
 
         {/* <!-- Swiper --> */}
         <LeadersSwiper/>
@@ -133,30 +133,30 @@ const Leaders = () => {
 
 
 
-    <section class="competitions competitionsred container bottom">
-        <div class="rightsideCompetitions">
+    <section className="competitions competitionsred container bottom">
+        <div className="rightsideCompetitions">
      
-          {/* <!-- <img class="shappp" src="images/shappp.svg" alt=""> --> */}
-          <img  class="shappp" src={minidil3} alt=""/>
-            <div class="leftsideabout">
+          {/* <!-- <img className="shappp" src="images/shappp.svg" alt=""> --> */}
+          <img  className="shappp" src={minidil3} alt=""/>
+            <div className="leftsideabout">
 
-                <div class="imgleftus">
-                  <div class="imgtopus">
-                    <img  class="imgpp1" src={Rectangle21} alt="" />
-                    <img  class="imgpp2" src={Rectangle143} alt="" />
+                <div className="imgleftus">
+                  <div className="imgtopus">
+                    <img  className="imgpp1" src={Rectangle21} alt="" />
+                    <img  className="imgpp2" src={Rectangle143} alt="" />
                   </div>
-                  <div class="imgtopus">
-                    <img  class="imgpp3" src={Rectangle20} alt="" />
-                    <img  class="imgpp4" src={Rectangle22} alt="" />
+                  <div className="imgtopus">
+                    <img  className="imgpp3" src={Rectangle20} alt="" />
+                    <img  className="imgpp4" src={Rectangle22} alt="" />
                   </div>
                 </div>
               </div>
 
         </div>
-        <div class="leftsideCompetitions">
-            <div class="titletexthed abouttit">
+        <div className="leftsideCompetitions">
+            <div className="titletexthed abouttit">
                 <p> برنامج القيادات والمواطنة</p>
-                <div class="linetit"></div>
+                <div className="linetit"></div>
               </div>
               <h1> مسارات ووطن </h1>
 
@@ -167,15 +167,15 @@ const Leaders = () => {
         </div>
     </section>
 
-    <section class="voices container voiceswiper">
+    <section className="voices container voiceswiper">
 
-<div class="titletexthed abouttit top ">
+<div className="titletexthed abouttit top ">
     <p> برنامج القيادات والمواطنة</p>
-    <div class="linetit"></div>
+    <div className="linetit"></div>
   </div>
-  <h1 class="top">أصوات الشباب</h1>
+  <h1 className="top">أصوات الشباب</h1>
 
-  <p class="top">سبارك عبارة عن ومضات صغيرة من الإيجابية. حفز الآخرين من خلال مشاركة ما فعلته أو رأيته أو سمعته أو قرأته. أو ببساطة عبر عن فكرة جميلةشارك الشباب في جميع أنحاء العالم وساهم في تشكيل عالم أكثر شمولاً وسلمًا واستدامة
+  <p className="top">سبارك عبارة عن ومضات صغيرة من الإيجابية. حفز الآخرين من خلال مشاركة ما فعلته أو رأيته أو سمعته أو قرأته. أو ببساطة عبر عن فكرة جميلةشارك الشباب في جميع أنحاء العالم وساهم في تشكيل عالم أكثر شمولاً وسلمًا واستدامة
   </p>
 
 
@@ -185,32 +185,32 @@ const Leaders = () => {
 </section>
 
 
-<section class="ShareVotes">
-     <div class="ShareVote container">
+<section className="ShareVotes">
+     <div className="ShareVote container">
 
-        <div class="rightShareVote right">
+        <div className="rightShareVote right">
             <img  src={Group1466} alt=""/>
         </div>
 
-        <div class="leftShareVote left">
+        <div className="leftShareVote left">
 
-            <div class="titletexthed abouttit">
+            <div className="titletexthed abouttit">
                 <p> برنامج القيادات والمواطنة</p>
-                <div class="linetit"></div>
+                <div className="linetit"></div>
               </div>
               <h1>شاركنا بصوتك </h1>
 
-              <form class="formShareVote">
+              <form className="formShareVote">
 
                 <input type="text" placeholder="الاسم"/>
                 <input type="email" placeholder="البريد الالكتروني"/>
                 <textarea name="" id="" cols="30" rows="10" placeholder="اكتب صوتك"></textarea>
                 
-                <div class="btnNews">
-                  <button class="btnall">
+                <div className="btnNews">
+                  <button className="btnall">
                     <p>ارسال صوتك</p>
-                    <div class="arrowbtn">
-                      <i class="bx bx-left-arrow-alt movearr"></i>
+                    <div className="arrowbtn">
+                      <i className="bx bx-left-arrow-alt movearr"></i>
                     </div>
                   </button>
                 </div>
