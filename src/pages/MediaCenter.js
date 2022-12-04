@@ -13,61 +13,61 @@ const MediaCenter = () => {
     <>
     <Navbar/>
       <header>
-        <div class="imghederc imghedercabout">
-          <img  class="imgheader imgnews imghedmedi" src={bgmeda} alt="" />
-          <img  class="imgheadermob bgmobred imghedmedimob" src={bgaboutmob} alt="" />
+        <div className="imghederc imghedercabout">
+          <img  className="imgheader imgnews imghedmedi" src={bgmeda} alt="" />
+          <img  className="imgheadermob bgmobred imghedmedimob" src={bgaboutmob} alt="" />
         </div>
 
-        <div class="allcontantheder allcontanthederabout">
-          <div class="contanthede container">
-            <div class="titletextabout">
+        <div className="allcontantheder allcontanthederabout">
+          <div className="contanthede container">
+            <div className="titletextabout">
               <h1>المركز الاعلامي </h1>
               <p>كل ما هو حقيقي يجب تخيله في يوم من الأيام</p>
             </div>
 
-            <div class="tappabout">
-              <div class="aboutlink">
+            <div className="tappabout">
+              <div className="aboutlink">
                 <Link to="/">الرئسية</Link>
-                <div class="arrowbtn hedarr">
-                  <i class="bx bx-left-arrow-alt movearr"></i>
+                <div className="arrowbtn hedarr">
+                  <i className="bx bx-left-arrow-alt movearr"></i>
                 </div>
                 <a> المعرض</a>
               </div>
             </div>
 
-            <div class="bodyheadabout">
+            <div className="bodyheadabout">
               <p>
                 يمكنك متابعة الصور ومقاطع الفيديو لجميع الأنشطة الطلابية على
                 صفحتنا
               </p>
 
-              <div class="serachInput">
+              <div className="serachInput">
                 <img  src={vuesax} alt="" />
                 <input type="text" placeholder="عن ماذا تريد البحث؟" />
               </div>
 
-              <div class="alltaphed">
-                <div class="taphedfle">
+              <div className="alltaphed">
+                <div className="taphedfle">
                   <NavLink to="/mediaCenter" className={`taphed ${(isActive)=> isActive ? "active" : ""}` } end >
                     <p>الاخبار</p>
-                    <div class="poptaphed"></div>
+                    <div className="poptaphed"></div>
                   </NavLink>
 
                   <NavLink to="/mediaCenter/events" className={`taphed ${(isActive)=> isActive ? "active" : ""}`}>
                     <p>الفعاليات</p>
-                    <div class="poptaphed"></div>
+                    <div className="poptaphed"></div>
                   </NavLink>
                 </div>
 
-                <div class="taphedfle">
+                <div className="taphedfle">
                   <NavLink to="/mediaCenter/images" className={`taphed ${(isActive)=> isActive ? "active" : ""}`}>
                     <p>الصور</p>
-                    <div class="poptaphed"></div>
+                    <div className="poptaphed"></div>
                   </NavLink>
 
                   <NavLink to="/mediaCenter/videos" className={`taphed ${(isActive)=> isActive ? "active" : ""}`}>
                     <p>الفيديوهات</p>
-                    <div class="poptaphed"></div>
+                    <div className="poptaphed"></div>
                   </NavLink>
                 </div>
               </div>

@@ -9,10 +9,23 @@ import imggf2 from '../images/imggf2.svg'
 import imggf3 from '../images/imggf3.svg'
 import imgrightoo from '../images/imgrightoo.svg'
 import imhhgp from '../images/imhhgp.svg'
-
+import ScrollReveal from 'scrollreveal'
 
 
 const About = () => {
+
+
+    ScrollReveal({
+        reset:true,
+        distance:"60px",
+        duration:2500
+      })
+    
+      ScrollReveal().reveal('.bottom' , {delay:0 , origin:'bottom'})
+    
+    
+    
+
   return (
     <div>
             <header>
@@ -33,7 +46,7 @@ const About = () => {
                     <div className="linetitleab"></div>
 
                     <div className="aboutlink">
-                        <a href="index.html">الرئسية</a>
+                        <a href="/">الرئسية</a>
                         <div className="arrowbtn hedarr">
                             <i className="bx bx-left-arrow-alt movearr"></i>
                           </div>
@@ -62,7 +75,7 @@ const About = () => {
     <section className="bodyabout container">
 
         <div className="allcardabout ">
-            <div className="cardabout right">
+            <div className="cardabout bottom">
                 <div className="titlebabout">
                     <img src={minidil} alt=""/>
                     <h1>رؤيتنا </h1>
@@ -72,7 +85,7 @@ const About = () => {
 
             <div className="linecardabout"></div>
 
-            <div className="cardabout left">
+            <div className="cardabout bottom">
                 <div className="titlebabout">
                     <img src={imggd} alt=""/>
                     <h1>مهمتنا </h1>
@@ -82,7 +95,7 @@ const About = () => {
         </div>
 
         <div className="allcardabout ">
-            <div className="cardabout right">
+            <div className="cardabout bottom">
                 <div className="titlebabout">
                     <img src={imggf2} alt=""/>
                     <h1>القيم </h1>
@@ -92,7 +105,7 @@ const About = () => {
 
             <div className="linecardabout"></div>
 
-            <div className="cardabout left">
+            <div className="cardabout bottom">
                 <div className="titlebabout">
                     <img src={imggf3} alt=""/>
                     <h1>الفئات المستهدفة  </h1>
@@ -109,7 +122,7 @@ const About = () => {
 
     <section className="objectives container " id="aboutUs">
 
-        <div className="rightObjectives right">
+        <div className="rightObjectives bottom">
             <div className="titlerightObjectives">
                 <h1>الأهداف</h1>
                 <p>تبذل سبارك جهودها لتحقيق أهدافها وهي</p>
@@ -122,7 +135,7 @@ const About = () => {
             </ul>
 
         </div>
-        <div className="leftObjectives left">
+        <div className="leftObjectives bottom">
             <img src={imgrightoo} alt=""/>
         </div>
 
@@ -132,7 +145,7 @@ const About = () => {
 
     <section className="objectives objectivesrev container">
 
-        <div className="rightObjectives left">
+        <div className="rightObjectives bottom">
             <div className="titlerightObjectives">
                 <h1>ما الذي يميزنا</h1>
                 <p>تسعى سبارك لتكون المميزة الحضارية دائماً</p>
@@ -145,7 +158,7 @@ const About = () => {
             </ul>
 
         </div>
-        <div className="leftObjectives right">
+        <div className="leftObjectives bottom">
             <img src={imhhgp} alt=""/>
         </div>
 

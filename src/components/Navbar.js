@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useLayoutEffect, useState } from "react";
 import btnnav from "../images/btnnav.png";
 import Layer12 from "../images/Layer_1-2.svg";
 import bgmob from "../images/bgmob.png";
@@ -11,6 +11,8 @@ import { NavLink, Link, useLocation } from "react-router-dom";
 import search from "../images/vuesax-outline-search-normal.svg";
 
 const Navbar = () => {
+
+  const [isActive, setActive] = useState(false);
   let locationn = useLocation();
 
   useEffect(() => {
@@ -18,6 +20,14 @@ const Navbar = () => {
     require("../js/searchside");
     require("../js/navmob");
   }, []);
+
+  useLayoutEffect(() => {
+    window.scrollTo(0, 0)
+});
+
+
+
+
 
 
 
@@ -141,10 +151,10 @@ const Navbar = () => {
             </ul>
 
             <div className="searchside">
-              <div className="btnsearch">
-                <img id="searchside" src={outlinenormal} alt="" />
+              <div className="btnsearch"  >
+                <img id="searchside" src={outlinenormal} alt=""  />
 
-                <div className="serchpop">
+                <div className="serchpop"  >
                   <input
                     type="text"
                     name=""
@@ -159,7 +169,7 @@ const Navbar = () => {
                 </div>
               </div>
               <div className="btnsearch">
-                <Link to="/profile">
+                <Link to="/profile" >
                   <img id="btnuser" src={vuesaxuser} alt="" />
                 </Link>
 
