@@ -1269,9 +1269,11 @@ body a{
     position: absolute;
     color: #fff;
     bottom: 10px;
-    right: 20px;
+    right: 0px;
     font-size: 20px;
-    padding-left: 5px;
+    padding-right: 15px;
+    padding-left: 15px;
+
 }
 
 .cardNew1{
@@ -5571,3 +5573,12 @@ background: linear-gradient(45deg, rgba(71,201,243,1) 0%, rgba(47,146,202,1) 57%
     }
   }
   
+
+  .textareaCommit{
+    width: 100%;
+    border-radius: 20px;
+    border: 1px solid #7070702a;
+    padding: 10px;
+    outline: none;
+    margin-bottom: 20px;
+  }

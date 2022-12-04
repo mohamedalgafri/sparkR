@@ -20,6 +20,8 @@ import ImagesDetels from "./pages/ImagesDetels";
 import SignIn from "./pages/SignIn";
 import LayoutSignIn from "./pages/LayoutSignIn";
 import CreateAccount from "./pages/CreateAccount";
+import Initiatives from "./pages/Initiatives";
+import Profile from "./pages/Profile";
 
 
 function App() {
@@ -41,7 +43,9 @@ function App() {
             <Route path="/climate" element={<Climate />}/>
             <Route path="/digital" element={<Digital />}/>
             <Route path="/leaders" element={<Leaders />}/>
+            <Route path="/initiatives/:id" element={<Initiatives />}/>
             <Route path="/connectus" element={<Connectus />}/>
+            <Route path="/profile" element={<Profile />}/>
           </Route>
 
           <Route path="/mediaCenter"  element={<MediaCenter />}>

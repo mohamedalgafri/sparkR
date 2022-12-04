@@ -20,6 +20,7 @@ const Navbar = () => {
   }, []);
 
 
+
   return (
     <>
       <nav className={`navbar navbar-expand-lg ${locationn.pathname == "/digital" ? "digital" : ""}`}>
@@ -29,7 +30,7 @@ const Navbar = () => {
               <img src={btnnav} alt="" />
             </button>
 
-            <a className="navbar-brand logomob" href="index.html">
+            <a className="navbar-brand logomob" href="/">
               <img src={Layer12} alt="" />
             </a>
           </div>
@@ -99,7 +100,6 @@ const Navbar = () => {
                               isActive ? "active" : ""}`}
                             to="/leaders"
                           >
-                            {" "}
                             القيادة والمواطنة
                           </NavLink>
                         </li>
@@ -110,7 +110,6 @@ const Navbar = () => {
                               isActive ? "active" : ""}`}
                             to="/digital"
                           >
-                            {" "}
                             التحول الرقمي
                           </NavLink>
                         </li>
@@ -127,7 +126,7 @@ const Navbar = () => {
                 >
                   المركز الاعلامي
                 </NavLink>
-                {locationn.pathname == "/mediaCenter" ? <div className="popnav"></div> : ""}
+                {locationn.pathname.includes("/mediaCenter") ? <div className="popnav"></div> : ""}
               </li>
               <li className="nav-item" >
                 <NavLink
@@ -160,9 +159,9 @@ const Navbar = () => {
                 </div>
               </div>
               <div className="btnsearch">
-                <a href="profile.html">
+                <Link to="/profile">
                   <img id="btnuser" src={vuesaxuser} alt="" />
-                </a>
+                </Link>
 
                 <div className="poplo">
                   <Link to="/signIn">

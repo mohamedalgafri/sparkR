@@ -34,7 +34,7 @@ export default function LeadersSwiper () {
                     التحديات التي تمثل معيقات تحد من فعالية دور الشباب وتعزيز
                     مشاركته المدنية في احداث التغيير الايجابي والتنمية{" "}
                   </p>
-                  <Link href='/programs/initiatives' className="btnNews">
+                  <Link to="/initiatives/1" className="btnNews">
                     <div className="btnall">
                       <p>عرض المزيد</p>
                       <div className="arrowbtn">
@@ -58,7 +58,7 @@ export default function LeadersSwiper () {
                     التحديات التي تمثل معيقات تحد من فعالية دور الشباب وتعزيز
                     مشاركته المدنية في احداث التغيير الايجابي والتنمية{" "}
                   </p>
-                  <Link href='/programs/initiatives' className="btnNews">
+                  <Link to="/initiatives/2" className="btnNews">
                     <div className="btnall">
                       <p>عرض المزيد</p>
                       <div className="arrowbtn">
@@ -82,7 +82,7 @@ export default function LeadersSwiper () {
                     التحديات التي تمثل معيقات تحد من فعالية دور الشباب وتعزيز
                     مشاركته المدنية في احداث التغيير الايجابي والتنمية{" "}
                   </p>
-                  <Link href='/programs/initiatives' className="btnNews">
+                  <Link to="/initiatives/3" className="btnNews">
                     <div className="btnall">
                       <p>عرض المزيد</p>
                       <div className="arrowbtn">
@@ -106,7 +106,7 @@ export default function LeadersSwiper () {
                     التحديات التي تمثل معيقات تحد من فعالية دور الشباب وتعزيز
                     مشاركته المدنية في احداث التغيير الايجابي والتنمية{" "}
                   </p>
-                  <Link href='/programs/initiatives' className="btnNews">
+                  <Link to="/initiatives/4" className="btnNews">
                     <div className="btnall">
                       <p>عرض المزيد</p>
                       <div className="arrowbtn">
@@ -130,7 +130,7 @@ export default function LeadersSwiper () {
                     التحديات التي تمثل معيقات تحد من فعالية دور الشباب وتعزيز
                     مشاركته المدنية في احداث التغيير الايجابي والتنمية{" "}
                   </p>
-                  <Link href='/programs/initiatives' className="btnNews">
+                  <Link to="/initiatives/5" className="btnNews">
                     <div className="btnall">
                       <p>عرض المزيد</p>
                       <div className="arrowbtn">
@@ -154,7 +154,7 @@ export default function LeadersSwiper () {
                     التحديات التي تمثل معيقات تحد من فعالية دور الشباب وتعزيز
                     مشاركته المدنية في احداث التغيير الايجابي والتنمية{" "}
                   </p>
-                  <Link href='/programs/initiatives' className="btnNews">
+                  <Link to="/initiatives/6" className="btnNews">
                     <div className="btnall">
                       <p>عرض المزيد</p>
                       <div className="arrowbtn">
