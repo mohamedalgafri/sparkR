@@ -23,6 +23,10 @@
   <link href="../src/lightbox2/dist/css/lightbox.min.css" rel="stylesheet" />
     <!-- animation aos -->
   <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+  <!-- ////////////////// -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.css" />
+  
     <title>React App</title>
   </head>
   <body>
@@ -32,8 +36,16 @@
 
  <!-- animation aos -->
  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.9.0/js/lightbox-plus-jquery.js"></script>
  <script>
-   AOS.init();
+   AOS.init({
+    duration: 1200,
+    once: true
+   });
+
+
+
  </script>
+
   </body>
 </html>

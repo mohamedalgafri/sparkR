@@ -28,11 +28,11 @@ const Initiatives = () => {
 
             <div class="tappabout">
               <div class="aboutlink">
-                <Link href="/">الرئسية</Link>
+                <a href="/">الرئسية</a>
                 <div class="arrowbtn hedarr">
                   <i class="bx bx-left-arrow-alt movearr"></i>
                 </div>
-                <Link href="/programs/leaders">
+                <Link to="/leaders">
                   {" "}
                   برنامج القيادات والمواطنة{" "}
                 </Link>

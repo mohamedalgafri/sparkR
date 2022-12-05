@@ -19,9 +19,6 @@ body{
     background-color: #F3F7FC !important;
 }
 
-body.active{
-    filter:grayscale();
-}
 
 body a{
     text-decoration: none !important;

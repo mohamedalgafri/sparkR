@@ -15,6 +15,7 @@ import Rectangle354 from "../../images/Rectangle 354.png";
 
 export default function SwiperImgNews () {
   return (
+    
     <Swiper
       // install Swiper modules
       modules={[Navigation, Pagination, Scrollbar]}

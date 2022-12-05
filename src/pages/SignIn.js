@@ -1,21 +1,27 @@
-import React from "react";
+import React, { useContext } from "react";
 import { useRef, useState } from "react";
 import gfh from "../images/gfh.png";
 import popp from "../images/popp.svg";
 import logo from "../images/logo.svg";
 import Path_7395 from "../images/Path 7395.svg";
-import { Link } from "react-router-dom";
+import { Link , useNavigate } from "react-router-dom";
+import { ContextLogin } from "../context/ContextLogin";
 
 const SignIn = () => {
+
+  let isLoginContext = useContext(ContextLogin);
+
   let emailLoginRef = useRef();
   let passwordLoginRef = useRef();
+
+  let navigate = useNavigate();
 
   let formSubmitHandler = (event) => {
     event.preventDefault();
     if (checkData()) {
       localStorage.setItem("logged_in", true);
-
-      // router.push("/");
+      isLoginContext.setLoggedIn(true);
+      navigate("/" , {replace:true});
     }
   };
 

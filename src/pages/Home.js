@@ -86,20 +86,20 @@ const Home = () => {
     //   </div>
 
         <>
-        <header className="header">
-          <div className="imgheader">
+        <header className="header" >
+          <div className="imgheader " >
             <img className="shapeheder2" src={minidil} alt="" />
             <img className="shapeheder" src={minidil22} alt="" />
             <img className="popimgg" src={popimgg} alt="" />
-            <img className="imgpopheddddd" src={imgpopheddddd} alt="" />
+            <img className="imgpopheddddd" src={imgpopheddddd} alt=""  />
   
-            <div className="imggh">
+            <div className="imggh" >
               <img className="shapeheder2 ImgSlider" src={Rectangle_673} alt="" />
             </div>
           </div>
   
           <div className="imgmob">
-            <img className="shapmob1" src={shapmob1} alt="" />
+            <img className="shapmob1" src={shapmob1} alt=""  />
             <img className="shapmob2" src={shapmob2} alt="" />
   
             <div className="imgghmob">
@@ -108,16 +108,16 @@ const Home = () => {
             </div>
           </div>
   
-          <div className="textheader">
-            <div className="alltextslied ">
+          <div className="textheader" >
+            <div className="alltextslied " data-aos="fade-up">
               <div className="slider" id="slider">
                 <div className="textslied " data-img={Rectangle_673}>
-                  <div className="titletexthed">
+                  <div className="titletexthed" >
                     <p>مسارات11 ووطن</p>
                     <div className="linetit"></div>
                   </div>
   
-                  <h1>المسارات أنشطة مهمة</h1>
+                  <h1 >المسارات أنشطة مهمة</h1>
                   <p>
                     لما لها من دور في تعميق وتقوية ارتباط الشباب بالأرض. نهدف من
                     قيام الشباب بمسارات في أماكن متعددة في غز ة، إلى تسليط الضوء

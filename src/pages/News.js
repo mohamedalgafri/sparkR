@@ -8,7 +8,7 @@ const News = () => {
   return (
     <section className="container bodymedia">
       <div className="allcardmedia ">
-        <a href="/newsDetails" className="cardNews " data-aos="fade-up">
+        <a href="/mediaCenter/newsDetails/1" className="cardNews " data-aos="fade-up">
           <img className="cardn1" src={Rectangle331} alt="" />
           <img className="shadown" src={sadown2} alt="" />
           <img className="imgblowcard" src={imgblowcard} alt="" />
@@ -16,85 +16,85 @@ const News = () => {
           <p>السيرك كفن يطرح قضايا مجتمعيّة السيرك للجميع</p>
         </a>
 
-        <div className="cardNews " data-aos="fade-up">
+        <a href="/mediaCenter/newsDetails/2" className="cardNews " data-aos="fade-up">
           <img className="cardn1" src={Rectangle331} alt="" />
           <img className="shadown" src={sadown2} alt="" />
           <img className="imgblowcard" src={imgblowcard} alt="" />
 
           <p>السيرك كفن يطرح قضايا مجتمعيّة السيرك للجميع</p>
-        </div>
+        </a>
 
-        <div className="cardNews " data-aos="fade-up">
+        <a href="/mediaCenter/newsDetails/3" className="cardNews " data-aos="fade-up">
           <img className="cardn1" src={Rectangle331} alt="" />
           <img className="shadown" src={sadown2} alt="" />
           <img className="imgblowcard" src={imgblowcard} alt="" />
 
           <p>السيرك كفن يطرح قضايا مجتمعيّة السيرك للجميع</p>
-        </div>
+        </a>
 
-        <div className="cardNews " data-aos="fade-up">
+        <a href="/mediaCenter/newsDetails/4" className="cardNews " data-aos="fade-up">
           <img className="cardn1" src={Rectangle331} alt="" />
           <img className="shadown" src={sadown2} alt="" />
           <img className="imgblowcard" src={imgblowcard} alt="" />
 
           <p>السيرك كفن يطرح قضايا مجتمعيّة السيرك للجميع</p>
-        </div>
+        </a>
 
-        <div className="cardNews " data-aos="fade-up">
+        <a href="/mediaCenter/newsDetails/5" className="cardNews " data-aos="fade-up">
           <img className="cardn1" src={Rectangle331} alt="" />
           <img className="shadown" src={sadown2} alt="" />
           <img className="imgblowcard" src={imgblowcard} alt="" />
 
           <p>السيرك كفن يطرح قضايا مجتمعيّة السيرك للجميع</p>
-        </div>
+        </a>
 
-        <div className="cardNews " data-aos="fade-up">
+        <a href="/mediaCenter/newsDetails/6" className="cardNews " data-aos="fade-up">
           <img className="cardn1" src={Rectangle331} alt="" />
           <img className="shadown" src={sadown2} alt="" />
           <img className="imgblowcard" src={imgblowcard} alt="" />
 
           <p>السيرك كفن يطرح قضايا مجتمعيّة السيرك للجميع</p>
-        </div>
+        </a>
 
-        <div className="cardNews " data-aos="fade-up">
+        <a href="/mediaCenter/newsDetails/7" className="cardNews " data-aos="fade-up">
           <img className="cardn1" src={Rectangle331} alt="" />
           <img className="shadown" src={sadown2} alt="" />
           <img className="imgblowcard" src={imgblowcard} alt="" />
 
           <p>السيرك كفن يطرح قضايا مجتمعيّة السيرك للجميع</p>
-        </div>
+        </a>
 
-        <div className="cardNews " data-aos="fade-up">
+        <a href="/mediaCenter/newsDetails/8" className="cardNews " data-aos="fade-up">
           <img className="cardn1" src={Rectangle331} alt="" />
           <img className="shadown" src={sadown2} alt="" />
           <img className="imgblowcard" src={imgblowcard} alt="" />
 
           <p>السيرك كفن يطرح قضايا مجتمعيّة السيرك للجميع</p>
-        </div>
+        </a>
 
-        <div className="cardNews " data-aos="fade-up">
+        <a href="/mediaCenter/newsDetails/9" className="cardNews " data-aos="fade-up">
           <img className="cardn1" src={Rectangle331} alt="" />
           <img className="shadown" src={sadown2} alt="" />
           <img className="imgblowcard" src={imgblowcard} alt="" />
 
           <p>السيرك كفن يطرح قضايا مجتمعيّة السيرك للجميع</p>
-        </div>
+        </a>
 
-        <div className="cardNews " data-aos="fade-up">
+        <a href="/mediaCenter/newsDetails/10" className="cardNews " data-aos="fade-up">
           <img className="cardn1" src={Rectangle331} alt="" />
           <img className="shadown" src={sadown2} alt="" />
           <img className="imgblowcard" src={imgblowcard} alt="" />
 
           <p>السيرك كفن يطرح قضايا مجتمعيّة السيرك للجميع</p>
-        </div>
+        </a>
 
-        <div className="cardNews " data-aos="fade-up">
+        <a href="/mediaCenter/newsDetails/11" className="cardNews " data-aos="fade-up">
           <img className="cardn1" src={Rectangle331} alt="" />
           <img className="shadown" src={sadown2} alt="" />
           <img className="imgblowcard" src={imgblowcard} alt="" />
 
           <p>السيرك كفن يطرح قضايا مجتمعيّة السيرك للجميع</p>
-        </div>
+        </a>
       </div>
 
       <div className="navmedia" data-aos="fade-up">

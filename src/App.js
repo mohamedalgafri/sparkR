@@ -23,6 +23,8 @@ import CreateAccount from "./pages/CreateAccount";
 import Initiatives from "./pages/Initiatives";
 import Profile from "./pages/Profile";
 import { useState } from "react";
+import NewsDetails from "./pages/NewsDetails";
+import { LoginContextprovider } from "./context/ContextLogin";
 
 function App() {
 
@@ -33,7 +35,8 @@ function App() {
 
 
   return (
-    <div >
+
+    <div>
       <Router>
         <Routes>
           <Route path="/"  element={<SharedLayout />}>
@@ -43,6 +46,7 @@ function App() {
             <Route path="/digital" element={<Digital />}/>
             <Route path="/leaders" element={<Leaders />}/>
             <Route path="/initiatives/:id" element={<Initiatives />}/>
+            <Route path="/mediaCenter/newsDetails/:id" element={<NewsDetails />}/>
             <Route path="/connectus" element={<Connectus />}/>
             <Route path="/profile" element={<Profile />}/>
           </Route>
@@ -54,6 +58,7 @@ function App() {
               <Route path="/mediaCenter/events" element={<Events />} />
               <Route path="/mediaCenter/connectus" element={<News />} />
               <Route path="/mediaCenter/videos" element={<Videos />} />
+              
           </Route>
 
           <Route path="/signIn"  element={<LayoutSignIn />}>

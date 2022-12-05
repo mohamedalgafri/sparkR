@@ -1,4 +1,4 @@
-import React, { useEffect, useLayoutEffect, useState } from "react";
+import React, { useContext, useEffect, useLayoutEffect, useState } from "react";
 import btnnav from "../images/btnnav.png";
 import Layer12 from "../images/Layer_1-2.svg";
 import bgmob from "../images/bgmob.png";
@@ -9,9 +9,11 @@ import vuesaxuser from "../images/vuesax-outline-user.svg";
 import outlinenormal from "../images/vuesax-outline-search-normal.svg";
 import { NavLink, Link, useLocation } from "react-router-dom";
 import search from "../images/vuesax-outline-search-normal.svg";
+import Ellipse22 from "../images/Ellipse 143.svg";
+import Group333i from "../images/Group 333i.png";
+import {ContextLogin} from "../context/ContextLogin"
 
 const Navbar = () => {
-
   const [isActive, setActive] = useState(false);
   let locationn = useLocation();
 
@@ -22,18 +24,18 @@ const Navbar = () => {
   }, []);
 
   useLayoutEffect(() => {
-    window.scrollTo(0, 0)
-});
+    window.scrollTo(0, 0);
+  });
 
-
-
-
-
-
+  let isLoginContext = useContext(ContextLogin);
 
   return (
     <>
-      <nav className={`navbar navbar-expand-lg ${locationn.pathname == "/digital" ? "digital" : ""}`}>
+      <nav
+        className={`navbar navbar-expand-lg ${
+          locationn.pathname == "/digital" ? "digital" : ""
+        }`}
+      >
         <div className="container">
           <div className="navtopmob">
             <button className="btnnav">
@@ -50,16 +52,22 @@ const Navbar = () => {
               <li className="nav-item">
                 <a
                   href="/"
-                  className={`nav-link ${locationn.pathname == "/" ? "active" : ""}`}
+                  className={`nav-link ${
+                    locationn.pathname == "/" ? "active" : ""
+                  }`}
                 >
                   الرئيسية
                 </a>
                 {/* <NavLink className={`nav-link ${(isActive)=>isActive ? "active" : ""}`} aria-current="page" to="/"
                end >الرئيسية</NavLink
               > */}
-                {locationn.pathname == "/" ? <div className="popnav"></div> : ""}
+                {locationn.pathname == "/" ? (
+                  <div className="popnav"></div>
+                ) : (
+                  ""
+                )}
               </li>
-              <li className="nav-item" >
+              <li className="nav-item">
                 <NavLink
                   className={`nav-link ${(isActive) =>
                     isActive ? "active" : ""}`}
@@ -68,7 +76,11 @@ const Navbar = () => {
                   من نحن
                 </NavLink>
                 {(isActive) => (isActive ? <div className="popnav"></div> : "")}
-                {locationn.pathname == "/about" ? <div className="popnav"></div> : ""}
+                {locationn.pathname == "/about" ? (
+                  <div className="popnav"></div>
+                ) : (
+                  ""
+                )}
               </li>
               <li className="nav-item navdrob">
                 <a
@@ -128,7 +140,7 @@ const Navbar = () => {
                   </div>
                 </div>
               </li>
-              <li className="nav-item" >
+              <li className="nav-item">
                 <NavLink
                   className={`nav-link ${(isActive) =>
                     isActive ? "active" : ""}`}
@@ -136,9 +148,13 @@ const Navbar = () => {
                 >
                   المركز الاعلامي
                 </NavLink>
-                {locationn.pathname.includes("/mediaCenter") ? <div className="popnav"></div> : ""}
+                {locationn.pathname.includes("/mediaCenter") ? (
+                  <div className="popnav"></div>
+                ) : (
+                  ""
+                )}
               </li>
-              <li className="nav-item" >
+              <li className="nav-item">
                 <NavLink
                   className={`nav-link ${(isActive) =>
                     isActive ? "active" : ""}`}
@@ -146,15 +162,19 @@ const Navbar = () => {
                 >
                   تواصل معنا
                 </NavLink>
-                {locationn.pathname == "/connectUs" ? <div className="popnav"></div> : ""}
+                {locationn.pathname == "/connectUs" ? (
+                  <div className="popnav"></div>
+                ) : (
+                  ""
+                )}
               </li>
             </ul>
 
             <div className="searchside">
-              <div className="btnsearch"  >
-                <img id="searchside" src={outlinenormal} alt=""  />
+              <div className="btnsearch">
+                <img id="searchside" src={outlinenormal} alt="" />
 
-                <div className="serchpop"  >
+                <div className="serchpop">
                   <input
                     type="text"
                     name=""
@@ -168,26 +188,54 @@ const Navbar = () => {
                   </div>
                 </div>
               </div>
-              <div className="btnsearch">
-                <Link to="/profile" >
-                  <img id="btnuser" src={vuesaxuser} alt="" />
-                </Link>
 
-                <div className="poplo">
-                  <Link to="/signIn">
-                    <p>تسجيل دخول</p>
-                  </Link>
-                  <hr />
-                  <Link to="/signIn/createAccount">
-                    <p>انشاء حساب</p>
-                  </Link>
+              {
+                console.log(isLoginContext.isLoggedIn)
+              }
+
+              {isLoginContext.isLoggedIn == "true" ? (
+                <div class="btnsearch btnprofimg">
+                  <img id="btnuser" src={Ellipse22} alt="" />
+
+                  <div class="poplo">
+                    <Link to="/profile">
+                      <p> الصفحة الشخصية</p>
+                    </Link>
+                    <hr />
+                    <Link
+                      to="/signIn"
+                      data-bs-toggle="modal"
+                      data-bs-target="#exampleModallogin"
+                    >
+                      <p> تسجيل الخروج</p>
+                    </Link>
+                  </div>
                 </div>
-              </div>
+              ) : (
+                <div class="btnsearch">
+                  <Link href="profile">
+                    <img id="btnuser" src={vuesaxuser} alt="" />
+                  </Link>
+
+                  <div class="poplo">
+                    <Link to="/signIn">
+                      <p>تسجيل دخول</p>
+                    </Link>
+                    <hr />
+                    <Link to="/createAccount">
+                      <p> انشاء حساب</p>
+                    </Link>
+                  </div>
+                </div>
+              )}
+
               <button className="btnt">
                 <p>تبرع</p>
-                {
-                locationn.pathname == "/digital" ? ( <img src={lovelyblow} alt="" />) : ( <img src={lovely} alt="" />)
-                }
+                {locationn.pathname == "/digital" ? (
+                  <img src={lovelyblow} alt="" />
+                ) : (
+                  <img src={lovely} alt="" />
+                )}
               </button>
             </div>
           </div>
@@ -248,6 +296,38 @@ const Navbar = () => {
           </ul>
         </div>
       </navbar>
+
+      {/* <!-- Modal --> */}
+      <div
+        class="modal modelprof fade"
+        id="exampleModallogin"
+        tabindex="-1"
+        aria-labelledby="exampleModalLabel"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-body">
+              <img src={Group333i} alt="" />
+
+              <div class="contantmodel">
+                <h4> هل تريد حقاً تسجيل الخروج ?</h4>
+                <div class="btnmodelprof">
+                  <a href="" data-bs-dismiss="modal">
+                    لا اريد
+                  </a>
+                  <a
+                    href="/signIn"
+                    onClick={() => localStorage.setItem("logged_in", false)}
+                  >
+                    نعم , اريد
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </>
   );
 };
