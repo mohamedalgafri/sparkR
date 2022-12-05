@@ -28,14 +28,15 @@ const Climate = () => {
   return (
     <>
     <header>
-<div className="imghederc">
+<div className="imghederc" >
     <img    className="imgheader" src={imgbgclime} alt=""/>
     <img    className="imgheadermob imgclimate" src={bgmob2} alt=""/>
 </div>
 
-<div className="allcontantheder bottom ">
+<div className="allcontantheder bottom " >
     <div className="contantheder container">
-        <div className="rightsideheder " >
+        <div className="rightsideheder " data-aos="fade-up"
+     data-aos-anchor-placement="top-bottom" >
             <div className="linkhed">
                 <a  href="/">  الرئيسية / </a>
                 <p>البرامج / </p>
@@ -53,7 +54,7 @@ const Climate = () => {
             </div>
 
         </div>
-        <div className="leftsideheder ">
+        <div className="leftsideheder " data-aos="zoom-in-up" data-aos-duration="800">
             <img    src={imgheaderf} alt=""/>
         </div>
     </div>
@@ -66,8 +67,8 @@ const Climate = () => {
 <section className="projectsSection">
 
 
-<div className="allprojectsSection container">
-    <div className="titletexthed abouttit">
+<div className="allprojectsSection container" data-aos="fade-up">
+    <div className="titletexthed abouttit" >
         <p>البيئة والمناخ</p>
         <div className="linetit"></div>
       </div>
@@ -77,12 +78,12 @@ const Climate = () => {
 
 <div className="imgprojectsSection container ">
 
-    <img    className="rightimgpro" src={rightimgpro} alt=""/>
-    <img    className="leftimgpro" src={leftimgpro} alt=""/>
+    <img    className="rightimgpro"  src={rightimgpro} alt=""/>
+    <img    className="leftimgpro"  src={leftimgpro} alt=""/>
 
     <div className="allcardpro bottom ">
 
-    <ClimateSwiper/>
+    <ClimateSwiper />
 
     </div>
 
@@ -92,7 +93,7 @@ const Climate = () => {
 </section>
 
 
-<section className="competitions container bottom">
+<section className="competitions container bottom" data-aos="fade-up">
 <div className="rightsideCompetitions">
 
   {/* <img    className="shappp" src={shappp} alt=""/> */}
@@ -127,7 +128,7 @@ const Climate = () => {
 </section>
 
 
-<section className="explorerSection container bottom">
+<section className="explorerSection container bottom" data-aos="fade-up">
 <div className="titleexplorer">
         <div className="righttitleexplorer">
             <div className="titletexthed abouttit">
@@ -195,7 +196,7 @@ const Climate = () => {
 </div>
 </section>
 
-<section className="titletextspark top ">
+<section className="titletextspark top " data-aos="fade-down">
 <img    className="imgsht" src={Ellipse_54} alt=""/>
 <div className="alltitletextspark  container">
     <div className="righttextspark">

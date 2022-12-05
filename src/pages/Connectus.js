@@ -11,19 +11,19 @@ const Connectus = () => {
   return (
     <>
     <header>
-<div className="imghederc imghedercabout">
+<div className="imghederc imghedercabout" data-aos="fade-up">
     <img className="imgheader imgnews" src={imgnews} alt=""/>
     <img className="imgheadermob bgmobred" src={bgaboutmob} alt=""/>
 </div>
 
 <div className="allcontantheder allcontanthederabout bottom">
     <div className="contanthede container">
-        <div className="titletextabout top">
+        <div className="titletextabout top " data-aos="fade-up">
             <h1>تواصل معنا </h1>
             <p >كل ما هو حقيقي يجب تخيله في يوم من الأيام</p>
         </div>
 
-        <div className="tappabout">
+        <div className="tappabout" data-aos="fade-up">
             <div className="aboutlink">
                 <a href="index.html">الرئسية</a>
                 <div className="arrowbtn hedarr">
@@ -37,7 +37,7 @@ const Connectus = () => {
 
         </div>
 
-        <div className="bodyheadabout">
+        <div className="bodyheadabout" data-aos="fade-down">
 
 
             <div className="swiper-slide slidimghead">
@@ -55,7 +55,7 @@ const Connectus = () => {
 
 <section className="bodycont">
 <dev className="bodycontact container">
-<div className="rightcontact right">
+<div className="rightcontact right" data-aos="fade-up">
 
   <h2>نموذج  التواصل</h2>
   <form action="">
@@ -81,7 +81,7 @@ const Connectus = () => {
   </form>
 
 </div>
-<div className="leftcontact left">
+<div className="leftcontact left" data-aos="fade-up">
   
   <h1> <span>اتصل</span> بنا</h1>
   <p>يمكنك إرسال آرائك واقتراحاتك وأسئلتك إلينا  باستخدام المعلومات الواردة ادناه</p>

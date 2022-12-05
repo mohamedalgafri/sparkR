@@ -15,7 +15,7 @@ const Footer = () => {
 
 
   return (
-    <footer class={`footer bottom  ${ locationn.pathname == "/climate" ? "climate" : ""} || ${ locationn.pathname == "/digital" ? "digital" : ""}   `}>
+    <footer data-aos="fade-up" class={`footer bottom  ${ locationn.pathname == "/climate" ? "climate" : ""} || ${ locationn.pathname == "/digital" ? "digital" : ""}   `}>
     <div className="container">
       <div className="row allFooter">
         <div className="col-md-12 col-lg-4">

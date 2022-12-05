@@ -13,7 +13,7 @@ const Images = () => {
     <div>
       <section className="container bodymedia">
         <div className="allcardmedia ">
-          <Link className="cardNews " to="/mediaCenter/images/imagesDetels">
+          <Link className="cardNews " to="/mediaCenter/images/imagesDetels" data-aos="fade-up">
             <img className="cardn1" src={Rectangle331} alt="" />
             <img className="shadown" src={sadown2} alt="" />
             <img className="imgblowcard" src={imgblowcard} alt="" />
@@ -25,7 +25,7 @@ const Images = () => {
             <p>السيرك كفن يطرح قضايا مجتمعيّة السيرك للجميع</p>
           </Link>
 
-          <Link className="cardNews " to="/mediaCenter/images/imagesDetels">
+          <Link className="cardNews " to="/mediaCenter/images/imagesDetels" data-aos="fade-up">
             <img className="cardn1" src={Rectangle331} alt="" />
             <img className="shadown" src={sadown2} alt="" />
             <img className="imgblowcard" src={imgblowcard} alt="" />
@@ -37,7 +37,7 @@ const Images = () => {
             <p>السيرك كفن يطرح قضايا مجتمعيّة السيرك للجميع</p>
           </Link>
 
-          <Link className="cardNews " to="/mediaCenter/images/imagesDetels">
+          <Link className="cardNews " to="/mediaCenter/images/imagesDetels" data-aos="fade-up">
             <img className="cardn1" src={Rectangle331} alt="" />
             <img className="shadown" src={sadown2} alt="" />
             <img className="imgblowcard" src={imgblowcard} alt="" />
@@ -51,7 +51,7 @@ const Images = () => {
         </div>
 
         <div className="navmedia">
-          <nav aria-label="Page navigation  ">
+          <nav aria-label="Page navigation  " data-aos="fade-up">
             <ul className="pagination">
               <li className="page-item">
                 <a className="page-link" href="#" aria-label="Previous">

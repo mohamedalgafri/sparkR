@@ -163,7 +163,7 @@ const Home = () => {
           </div>
         </header>
   
-        <section className="aboutus container bottom">
+        <section className="aboutus container bottom" data-aos="fade-up">
           <div className="rightsideabout bottom ">
             <div className="titletexthed abouttit">
               <p>من نحن</p>
@@ -192,7 +192,7 @@ const Home = () => {
             </Link>
           </div>
   
-          <div className="leftsideabout bottom ">
+          <div className="leftsideabout bottom " data-aos="zoom-in-up" data-aos-duration="1000">
             <div className="imgleftus">
               <div className="imgtopus">
                 <img className="imgpp1" src={Rectangle21} alt="" />
@@ -206,8 +206,8 @@ const Home = () => {
           </div>
         </section>
   
-        <section className="Our_programs bottom">
-          <div className="rigth_programs bottom">
+        <section className="Our_programs bottom" data-aos="fade-up" >
+          <div className="rigth_programs bottom" >
             <div className="imgpp">
               <img src={minidil23} alt="" />
             </div>
@@ -221,7 +221,7 @@ const Home = () => {
           </div>
         </section>
   
-        <section className="newNews  bottom" >
+        <section className="newNews  bottom" data-aos="fade-up">
           <div className="allCardNews container">
             <div className="topCardNews">
               <div className="rightSideCard">
@@ -339,7 +339,7 @@ const Home = () => {
         </div> --> */}
         </section>
   
-        <section className="newNewsMob bottom">
+        <section className="newNewsMob bottom" data-aos="fade-up">
           <div className="leftSideCard">
             <div className="titletexthed abouttit">
               <p>المركز الاعلامي</p>
@@ -382,7 +382,7 @@ const Home = () => {
           <NewsMobSwiper />
         </section>
   
-        <section className="sparknum ">
+        <section className="sparknum " data-aos="fade-up">
           <div className="allnums container bottom">
             <div className="cardnums cardnums1 ">
               <div className="titnumCard">
@@ -458,12 +458,12 @@ const Home = () => {
         </section>
   
         {/* <!-- //////////////////////////////sparknumMobile////////////////////////// --> */}
-        <section className="sparknuMob">
+        <section className="sparknuMob" data-aos="fade-up">
           {/* <!-- Swiper --> */}
           <SparknuMobSwiper />
         </section>
   
-        <section className="Our_programs parrtn">
+        <section className="Our_programs parrtn" data-aos="fade-up">
           <div className="rigth_programs bottom">
             <div className="imgpp">
               <img src={minidil_2} alt="" />

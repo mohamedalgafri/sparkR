@@ -18,7 +18,7 @@ const CreateAccount = () => {
           <img src={logo} alt="" />
         </Link>
 
-        <div className="leftnavb">
+        <div className="leftnavb" >
           <Link to="/signIn">هل لديك حساب؟</Link>
           <Link to="/signIn" className="btnlog">
             <p>تسجيل دخول</p>
@@ -28,7 +28,7 @@ const CreateAccount = () => {
       </nav>
 
       <section className="bodycre container">
-        <div className="rightbodycre">
+        <div className="rightbodycre" data-aos="fade-up">
           <div className="rightcontact righfog">
             <h2>إنشاء حساب</h2>
             <form action="">
@@ -70,13 +70,13 @@ const CreateAccount = () => {
             </a>
           </div>
         </div>
-        <div className="leftbodycre">
+        <div className="leftbodycre" data-aos="fade-up">
           <h2>
             مرحباَ بك في مجتمع <span>سبارك</span>{" "}
           </h2>
           <p>للتسجيل ، يرجى ملء النموذج الموجود </p>
 
-          <img src={Group_1465} alt="" />
+          <img src={Group_1465} alt="" data-aos="zoom-in" />
         </div>
       </section>
     </div>

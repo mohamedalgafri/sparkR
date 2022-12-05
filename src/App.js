@@ -23,24 +23,12 @@ import CreateAccount from "./pages/CreateAccount";
 import Initiatives from "./pages/Initiatives";
 import Profile from "./pages/Profile";
 import { useState } from "react";
-import ScrollReveal from 'scrollreveal'
 
 function App() {
 
   useEffect(() => {
     require("bootstrap/dist/js/bootstrap.js");
   }, [])
-
-  ScrollReveal({
-    reset:true,
-    distance:"60px",
-    duration:2500
-  })
-
-  ScrollReveal().reveal('.bottom' , {delay:0 , origin:'bottom'})
-
-
-
 
 
 

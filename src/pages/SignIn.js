@@ -51,7 +51,7 @@ const SignIn = () => {
         </div>
       </nav>
 
-      <section className="bodycre container ">
+      <section className="bodycre container " data-aos="fade-up">
         <div className="rightbodycre rrsigh">
           <div className="rightcontact righfog ">
             <h2>تسجيل الدخول</h2>

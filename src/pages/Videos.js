@@ -13,6 +13,7 @@ const Videos = () => {
         className="cardNews "
         data-bs-toggle="modal"
         data-bs-target="#exampleModal"
+        data-aos="fade-up"
       >
         <img  className="cardn1" src={Rectangle331} alt="" />
         <img  className="shadown" src={sadown2} alt="" />
@@ -27,6 +28,7 @@ const Videos = () => {
         className="cardNews "
         data-bs-toggle="modal"
         data-bs-target="#exampleModal"
+        data-aos="fade-up"
       >
         <img  className="cardn1" src={Rectangle331} alt="" />
         <img  className="shadown" src={sadown2} alt="" />
@@ -42,6 +44,7 @@ const Videos = () => {
         className="cardNews "
         data-bs-toggle="modal"
         data-bs-target="#exampleModal"
+        data-aos="fade-up"
       >
         <img  className="cardn1" src={Rectangle331} alt="" />
         <img  className="shadown" src={sadown2} alt="" />
@@ -56,6 +59,7 @@ const Videos = () => {
         className="cardNews "
         data-bs-toggle="modal"
         data-bs-target="#exampleModal"
+        data-aos="fade-up"
       >
         <img  className="cardn1" src={Rectangle331} alt="" />
         <img  className="shadown" src={sadown2} alt="" />
@@ -70,6 +74,7 @@ const Videos = () => {
         className="cardNews "
         data-bs-toggle="modal"
         data-bs-target="#exampleModal"
+        data-aos="fade-up"
       >
         <img  className="cardn1" src={Rectangle331} alt="" />
         <img  className="shadown" src={sadown2} alt="" />
@@ -84,6 +89,7 @@ const Videos = () => {
         className="cardNews "
         data-bs-toggle="modal"
         data-bs-target="#exampleModal"
+        data-aos="fade-up"
       >
         <img  className="cardn1" src={Rectangle331} alt="" />
         <img  className="shadown" src={sadown2} alt="" />
@@ -98,6 +104,7 @@ const Videos = () => {
         className="cardNews "
         data-bs-toggle="modal"
         data-bs-target="#exampleModal"
+        data-aos="fade-up"
       >
         <img  className="cardn1" src={Rectangle331} alt="" />
         <img  className="shadown" src={sadown2} alt="" />
@@ -112,6 +119,7 @@ const Videos = () => {
         className="cardNews "
         data-bs-toggle="modal"
         data-bs-target="#exampleModal"
+        data-aos="fade-up"
       >
         <img  className="cardn1" src={Rectangle331} alt="" />
         <img  className="shadown" src={sadown2} alt="" />
@@ -125,7 +133,7 @@ const Videos = () => {
     </div>
 
     <div className="navmedia">
-      <nav aria-label="Page navigation  ">
+      <nav aria-label="Page navigation  " data-aos="fade-up">
         <ul className="pagination">
           <li className="page-item">
             <a className="page-link" href="#" aria-label="Previous">

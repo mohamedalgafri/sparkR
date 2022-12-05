@@ -9,7 +9,7 @@ const Events = () => {
   return (
     <section className="container bodymedia">
     <div className="allcardmedia ">
-      <div className="cardNews ">
+      <div className="cardNews " data-aos="fade-up">
         <img  className="cardn1" src={Rectangle331} alt="" />
         <img  className="shadown" src={sadown2} alt="" />
         <img  className="imgblowcard" src={imgblowcard} alt="" />
@@ -17,7 +17,7 @@ const Events = () => {
         <p>السيرك كفن يطرح قضايا مجتمعيّة السيرك للجميع</p>
       </div>
 
-      <div className="cardNews ">
+      <div className="cardNews " data-aos="fade-up">
       <img  className="cardn1" src={Rectangle331} alt="" />
         <img  className="shadown" src={sadown2} alt="" />
         <img  className="imgblowcard" src={imgblowcard} alt="" />
@@ -25,7 +25,7 @@ const Events = () => {
         <p>السيرك كفن يطرح قضايا مجتمعيّة السيرك للجميع</p>
       </div>
 
-      <div className="cardNews ">
+      <div className="cardNews " data-aos="fade-up">
       <img  className="cardn1" src={Rectangle331} alt="" />
         <img  className="shadown" src={sadown2} alt="" />
         <img  className="imgblowcard" src={imgblowcard} alt="" />
@@ -33,7 +33,7 @@ const Events = () => {
         <p>السيرك كفن يطرح قضايا مجتمعيّة السيرك للجميع</p>
       </div>
 
-      <div className="cardNews ">
+      <div className="cardNews " data-aos="fade-up">
       <img  className="cardn1" src={Rectangle331} alt="" />
         <img  className="shadown" src={sadown2} alt="" />
         <img  className="imgblowcard" src={imgblowcard} alt="" />
@@ -41,7 +41,7 @@ const Events = () => {
         <p>السيرك كفن يطرح قضايا مجتمعيّة السيرك للجميع</p>
       </div>
 
-      <div className="cardNews ">
+      <div className="cardNews " data-aos="fade-up">
       <img  className="cardn1" src={Rectangle331} alt="" />
         <img  className="shadown" src={sadown2} alt="" />
         <img  className="imgblowcard" src={imgblowcard} alt="" />
@@ -49,7 +49,7 @@ const Events = () => {
         <p>السيرك كفن يطرح قضايا مجتمعيّة السيرك للجميع</p>
       </div>
 
-      <div className="cardNews ">
+      <div className="cardNews " data-aos="fade-up">
       <img  className="cardn1" src={Rectangle331} alt="" />
         <img  className="shadown" src={sadown2} alt="" />
         <img  className="imgblowcard" src={imgblowcard} alt="" />
@@ -57,7 +57,7 @@ const Events = () => {
         <p>السيرك كفن يطرح قضايا مجتمعيّة السيرك للجميع</p>
       </div>
 
-      <div className="cardNews ">
+      <div className="cardNews " data-aos="fade-up">
       <img  className="cardn1" src={Rectangle331} alt="" />
         <img  className="shadown" src={sadown2} alt="" />
         <img  className="imgblowcard" src={imgblowcard} alt="" />
@@ -65,7 +65,7 @@ const Events = () => {
         <p>السيرك كفن يطرح قضايا مجتمعيّة السيرك للجميع</p>
       </div>
 
-      <div className="cardNews ">
+      <div className="cardNews " data-aos="fade-up">
       <img  className="cardn1" src={Rectangle331} alt="" />
         <img  className="shadown" src={sadown2} alt="" />
         <img  className="imgblowcard" src={imgblowcard} alt="" />
@@ -73,7 +73,7 @@ const Events = () => {
         <p>السيرك كفن يطرح قضايا مجتمعيّة السيرك للجميع</p>
       </div>
 
-      <div className="cardNews ">
+      <div className="cardNews " data-aos="fade-up">
       <img  className="cardn1" src={Rectangle331} alt="" />
         <img  className="shadown" src={sadown2} alt="" />
         <img  className="imgblowcard" src={imgblowcard} alt="" />
@@ -81,7 +81,7 @@ const Events = () => {
         <p>السيرك كفن يطرح قضايا مجتمعيّة السيرك للجميع</p>
       </div>
 
-      <div className="cardNews ">
+      <div className="cardNews " data-aos="fade-up">
       <img  className="cardn1" src={Rectangle331} alt="" />
         <img  className="shadown" src={sadown2} alt="" />
         <img  className="imgblowcard" src={imgblowcard} alt="" />
@@ -89,7 +89,7 @@ const Events = () => {
         <p>السيرك كفن يطرح قضايا مجتمعيّة السيرك للجميع</p>
       </div>
 
-      <div className="cardNews ">
+      <div className="cardNews " data-aos="fade-up">
       <img  className="cardn1" src={Rectangle331} alt="" />
         <img  className="shadown" src={sadown2} alt="" />
         <img  className="imgblowcard" src={imgblowcard} alt="" />
@@ -99,7 +99,7 @@ const Events = () => {
     </div>
 
     <div className="navmedia">
-      <nav aria-label="Page navigation  ">
+      <nav aria-label="Page navigation  " data-aos="fade-up">
         <ul className="pagination">
           <li className="page-item">
             <a className="page-link" href="#" aria-label="Previous">

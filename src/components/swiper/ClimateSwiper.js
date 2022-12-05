@@ -39,7 +39,7 @@ export default function LeadersSwiper () {
     >
 
 <SwiperSlide>
-      <div className="cardproo ">
+      <div className="cardproo " data-aos="fade-up">
                     <img  className="logocardpr" src={logocardpr1} alt=""/>
                     <img  className="imgshadowcard" src={imgshadowcard} alt=""/>
                     <div className="titlecardproo">
@@ -77,7 +77,7 @@ export default function LeadersSwiper () {
                 </div>
       </SwiperSlide>
       <SwiperSlide>
-      <div className="cardproo cardmedpro ">
+      <div className="cardproo cardmedpro " data-aos="fade-up">
                     <img  className="logocardpr" src={logocardp3} alt=""/>
                     <img  className="imgshadowcard" src={sadocardp3} alt=""/>
                     <div className="titlecardproo">
@@ -103,7 +103,7 @@ export default function LeadersSwiper () {
       </SwiperSlide>
 
       <SwiperSlide>
-      <div className="cardproo ">
+      <div className="cardproo " data-aos="fade-up">
                     <img  className="logocardpr" src={logocardp2} alt=""/>
                     <img  className="imgshadowcard" src={imgshadowcard} alt=""/>
                     <div className="titlecardproo">

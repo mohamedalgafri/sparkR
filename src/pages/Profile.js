@@ -8,18 +8,18 @@ const Profile = () => {
   return (
     <>
       <header>
-        <div class="imghederc imghedercabout">
+        <div class="imghederc imghedercabout" data-aos="fade-up">
           <img class="imgheader imgnews imgprofile" src={bgggg} alt="" />
           <img class="imgheadermob imgprof" src={bgaboutmob} alt="" />
         </div>
 
         <div class="allcontantheder allcontanthederabout">
           <div class="contanthede container">
-            <div class="titletextabout">
+            <div class="titletextabout" data-aos="fade-up">
               <h1 class="mb-4">الملف الشخصي </h1>
             </div>
 
-            <div class="tappabout">
+            <div class="tappabout" data-aos="fade-up">
               <div class="aboutlink">
                 <a href="index.html">الرئسية</a>
                 <div class="arrowbtn hedarr">
@@ -33,7 +33,7 @@ const Profile = () => {
       </header>
 
       <section class="bodyprof container">
-        <div class="rightprof">
+        <div class="rightprof" data-aos="fade-up">
           <img src={Group2822} alt="" />
           <h4>عبدالله الاستاذ</h4>
           <p>اللقب الخاص</p>
@@ -57,7 +57,7 @@ const Profile = () => {
             </a>
           </div>
         </div>
-        <div class="liftprof">
+        <div class="liftprof" data-aos="fade-up">
           <h1>البيانات الشخصية</h1>
           <form action="">
             <input type="text" placeholder="اسم المستخدم" />

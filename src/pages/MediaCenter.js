@@ -13,19 +13,19 @@ const MediaCenter = () => {
     <>
     <Navbar/>
       <header>
-        <div className="imghederc imghedercabout">
+        <div className="imghederc imghedercabout" data-aos="fade-up">
           <img  className="imgheader imgnews imghedmedi" src={bgmeda} alt="" />
           <img  className="imgheadermob bgmobred imghedmedimob" src={bgaboutmob} alt="" />
         </div>
 
-        <div className="allcontantheder allcontanthederabout">
+        <div className="allcontantheder allcontanthederabout" >
           <div className="contanthede container">
-            <div className="titletextabout">
+            <div className="titletextabout" data-aos="fade-up">
               <h1>المركز الاعلامي </h1>
               <p>كل ما هو حقيقي يجب تخيله في يوم من الأيام</p>
             </div>
 
-            <div className="tappabout">
+            <div className="tappabout" data-aos="fade-up">
               <div className="aboutlink">
                 <Link to="/">الرئسية</Link>
                 <div className="arrowbtn hedarr">
@@ -35,13 +35,13 @@ const MediaCenter = () => {
               </div>
             </div>
 
-            <div className="bodyheadabout">
+            <div className="bodyheadabout" data-aos="fade-up">
               <p>
                 يمكنك متابعة الصور ومقاطع الفيديو لجميع الأنشطة الطلابية على
                 صفحتنا
               </p>
 
-              <div className="serachInput">
+              <div className="serachInput" >
                 <img  src={vuesax} alt="" />
                 <input type="text" placeholder="عن ماذا تريد البحث؟" />
               </div>
