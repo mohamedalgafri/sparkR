@@ -4,11 +4,11 @@ import gfh from "../images/gfh.png";
 import popp from "../images/popp.svg";
 import logo from "../images/logo.svg";
 import Path_7395 from "../images/Path 7395.svg";
-import { Link , useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { ContextLogin } from "../context/ContextLogin";
+import axios from "axios";
 
 const SignIn = () => {
-
   let isLoginContext = useContext(ContextLogin);
 
   let emailLoginRef = useRef();
@@ -19,10 +19,30 @@ const SignIn = () => {
   let formSubmitHandler = (event) => {
     event.preventDefault();
     if (checkData()) {
-      localStorage.setItem("logged_in", true);
-      isLoginContext.setLoggedIn(true);
-      navigate("/" , {replace:true});
+      login();
     }
+  };
+
+  let login = () => {
+    axios
+      .post("https://identitytoolkit.googleapis.com/v1/accounts:signInWithPassword?key=AIzaSyBkZAaUEDciuOvgsrrmCmC3GVAn2RQ1gA8",{
+        email:emailLoginRef.current.value,
+        password:passwordLoginRef.current.value,
+        returnSecureToken:true
+      })
+      .then((response) => {
+        localStorage.setItem("logged_in", true);
+        localStorage.setItem("token", response.data.idToken);
+
+        isLoginContext.setLoggedIn(true);
+        navigate("/", { replace: true });
+        console.log(response)
+      })
+      .catch((error) => {
+        alert("The email is not available")
+        console.log(error)
+        console.log("error")
+      });
   };
 
   let checkData = () => {
@@ -32,6 +52,8 @@ const SignIn = () => {
     ) {
       return true;
     }
+    alert("Enter your e-mail and password")
+    return false;
   };
 
   return (
@@ -77,7 +99,7 @@ const SignIn = () => {
                 هل نسيت كلمة المرور؟
               </a>
 
-              <div href="indexprof.html">
+              <div >
                 <button type="submit" className="btnall">
                   <p>تسجيل دخول</p>
                   <div className="arrowbtn">

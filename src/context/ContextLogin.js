@@ -8,7 +8,8 @@ export const ContextLogin = React.createContext({
 
 export const LoginContextprovider = (props) => {
 
-    let [isLoggedIn, setLoggedIn] = useState(localStorage.getItem("logged_in"));
+    let [isLoggedIn, setLoggedIn] = useState(JSON.parse(localStorage.getItem("logged_in")));
+
 
   return (
     <ContextLogin.Provider

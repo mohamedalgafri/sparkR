@@ -5,6 +5,9 @@ import bgaboutmob from "../images/bgaboutmob.png"
 import Group2822 from "../images/Group 2822.png"
 
 const Profile = () => {
+
+  
+
   return (
     <>
       <header>

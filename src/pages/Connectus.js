@@ -11,7 +11,7 @@ const Connectus = () => {
   return (
     <>
     <header>
-<div className="imghederc imghedercabout" data-aos="fade-up">
+<div className="imghederc imghedercabout" >
     <img className="imgheader imgnews" src={imgnews} alt=""/>
     <img className="imgheadermob bgmobred" src={bgaboutmob} alt=""/>
 </div>

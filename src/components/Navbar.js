@@ -11,9 +11,11 @@ import { NavLink, Link, useLocation } from "react-router-dom";
 import search from "../images/vuesax-outline-search-normal.svg";
 import Ellipse22 from "../images/Ellipse 143.svg";
 import Group333i from "../images/Group 333i.png";
-import {ContextLogin} from "../context/ContextLogin"
+import { ContextLogin } from "../context/ContextLogin";
 
 const Navbar = () => {
+  let isLoginContext = useContext(ContextLogin);
+
   const [isActive, setActive] = useState(false);
   let locationn = useLocation();
 
@@ -26,8 +28,6 @@ const Navbar = () => {
   useLayoutEffect(() => {
     window.scrollTo(0, 0);
   });
-
-  let isLoginContext = useContext(ContextLogin);
 
   return (
     <>
@@ -189,11 +189,25 @@ const Navbar = () => {
                 </div>
               </div>
 
-              {
-                console.log(isLoginContext.isLoggedIn)
-              }
+              {console.log(isLoginContext.isLoggedIn)}
 
-              {isLoginContext.isLoggedIn == "true" ? (
+              { isLoginContext.isLoggedIn !== true ? (
+                <div class="btnsearch">
+                  <Link href="profile">
+                    <img id="btnuser" src={vuesaxuser} alt="" />
+                  </Link>
+
+                  <div class="poplo">
+                    <Link to="/signIn">
+                      <p>تسجيل دخول</p>
+                    </Link>
+                    <hr />
+                    <Link to="/signIn/createAccount">
+                      <p> انشاء حساب</p>
+                    </Link>
+                  </div>
+                </div>
+              ) : (
                 <div class="btnsearch btnprofimg">
                   <img id="btnuser" src={Ellipse22} alt="" />
 
@@ -208,22 +222,6 @@ const Navbar = () => {
                       data-bs-target="#exampleModallogin"
                     >
                       <p> تسجيل الخروج</p>
-                    </Link>
-                  </div>
-                </div>
-              ) : (
-                <div class="btnsearch">
-                  <Link href="profile">
-                    <img id="btnuser" src={vuesaxuser} alt="" />
-                  </Link>
-
-                  <div class="poplo">
-                    <Link to="/signIn">
-                      <p>تسجيل دخول</p>
-                    </Link>
-                    <hr />
-                    <Link to="/createAccount">
-                      <p> انشاء حساب</p>
                     </Link>
                   </div>
                 </div>
@@ -318,7 +316,11 @@ const Navbar = () => {
                   </a>
                   <a
                     href="/signIn"
-                    onClick={() => localStorage.setItem("logged_in", false)}
+                    onClick={() => {
+                      localStorage.setItem("logged_in", false);
+                      // localStorage.removeItem("token");
+                      isLoginContext.setLoggedIn(false);
+                    }}
                   >
                     نعم , اريد
                   </a>

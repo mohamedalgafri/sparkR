@@ -25,8 +25,11 @@ const Leaders = () => {
         </div>
 
         <div className="allcontantheder">
-          <div className="contantheder container right" data-aos="fade-up"
-              data-aos-anchor-placement="top-bottom">
+          <div
+            className="contantheder container right"
+            data-aos="fade-up"
+            data-aos-anchor-placement="top-bottom"
+          >
             <div className="rightsideheder rred ">
               <div className="linkhed coored">
                 <a href="/"> الرئيسية / </a>
@@ -49,8 +52,11 @@ const Leaders = () => {
                 </div>
               </div>
             </div>
-            <div className="leftsideheder left" data-aos="zoom-in-up"
-              data-aos-duration="800">
+            <div
+              className="leftsideheder left"
+              data-aos="zoom-in-up"
+              data-aos-duration="800"
+            >
               <img src={Basketball_camp} alt="" />
             </div>
           </div>
@@ -87,7 +93,10 @@ const Leaders = () => {
         </dev>
       </section>
 
-      <section className="sledersectionred container bottom swiperleader" data-aos="fade-up">
+      <section
+        className="sledersectionred container bottom swiperleader"
+        data-aos="fade-up"
+      >
         <h1 className="redtext">مبادرات شـبابـية</h1>
 
         {/* <!-- Swiper --> */}
@@ -124,14 +133,20 @@ const Leaders = () => {
         </dev>
       </section>
 
-      <section className="sledersectionred container bottom swiperleader" data-aos="fade-up">
+      <section
+        className="sledersectionred container bottom swiperleader"
+        data-aos="fade-up"
+      >
         <h1 className="redtext">مبادرات شـبابـية</h1>
 
         {/* <!-- Swiper --> */}
         <LeadersSwiper />
       </section>
 
-      <section className="competitions competitionsred container bottom" data-aos="fade-up">
+      <section
+        className="competitions competitionsred container bottom"
+        data-aos="fade-up"
+      >
         <div className="rightsideCompetitions">
           {/* <!-- <img className="shappp" src="images/shappp.svg" alt=""> --> */}
           <img className="shappp" src={minidil3} alt="" />

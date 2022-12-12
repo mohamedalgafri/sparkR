@@ -13,7 +13,7 @@ const MediaCenter = () => {
     <>
     <Navbar/>
       <header>
-        <div className="imghederc imghedercabout" data-aos="fade-up">
+        <div className="imghederc imghedercabout" >
           <img  className="imgheader imgnews imghedmedi" src={bgmeda} alt="" />
           <img  className="imgheadermob bgmobred imghedmedimob" src={bgaboutmob} alt="" />
         </div>

@@ -14,7 +14,7 @@ const About = () => {
   return (
     <div>
       <header>
-        <div className="imghederc imghedercabout" data-aos="fade-up">
+        <div className="imghederc imghedercabout" >
           <img className="imgheader" src={bgabout} alt="" />
           <img className="imgheadermob bgmobred" src={bgaboutmob} alt="" />
         </div>
