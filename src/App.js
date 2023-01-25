@@ -37,6 +37,9 @@ function App() {
   return (
 
     <div>
+
+    <div className="panner"></div>
+
       <Router>
         <Routes>
           <Route path="/"  element={<SharedLayout />}>

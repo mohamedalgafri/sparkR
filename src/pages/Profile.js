@@ -78,7 +78,7 @@ const Profile = () => {
       <div
         class="modal modalprof fade "
         id="exampleModal"
-        tabindex="-1"
+        tabIndex="-1"
         aria-labelledby="exampleModalLabel"
         aria-hidden="true"
       >
@@ -119,7 +119,7 @@ const Profile = () => {
       <div
         class="modal modalprof fade "
         id="exampleModal2"
-        tabindex="-1"
+        tabIndex="-1"
         aria-labelledby="exampleModalLabel"
         aria-hidden="true"
       >

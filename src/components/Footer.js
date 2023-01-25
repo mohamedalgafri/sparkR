@@ -15,6 +15,9 @@ const Footer = () => {
 
 
   return (
+    <>
+
+
     <footer data-aos="fade-up" class={`footer bottom  ${ locationn.pathname == "/climate" ? "climate" : ""} || ${ locationn.pathname == "/digital" ? "digital" : ""}   `}>
     <div className="container">
       <div className="row allFooter">
@@ -117,6 +120,9 @@ const Footer = () => {
       <div className="linewfooter"></div>
     </div>
   </footer>
+    </>
+
+
   )
 }
 

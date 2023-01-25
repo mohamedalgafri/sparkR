@@ -299,7 +299,7 @@ const Navbar = () => {
       <div
         class="modal modelprof fade"
         id="exampleModallogin"
-        tabindex="-1"
+        tabIndex="-1"
         aria-labelledby="exampleModalLabel"
         aria-hidden="true"
       >

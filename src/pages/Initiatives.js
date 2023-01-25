@@ -199,7 +199,7 @@ const Initiatives = () => {
       <div
         class="modal modalprof fade "
         id="exampleModalCommit"
-        tabindex="-1"
+        tabIndex="-1"
         aria-labelledby="exampleModalLabel"
         aria-hidden="true"
       >

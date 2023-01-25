@@ -43,6 +43,10 @@ import Our_programsSwiper from "../components/swiper/Our_programsSwiper";
 import SparknuMobSwiper from "../components/swiper/SparknuMobSwiper";
 import NewsMobSwiper from "../components/swiper/NewsMobSwiper";
 
+import ic1 from "../images/ic1.svg";
+import ic2 from "../images/ic2.svg";
+import ic3 from "../images/ic3.svg";
+
 import { Link } from "react-router-dom";
 import { PacmanLoader} from "react-spinners";
 
@@ -193,6 +197,10 @@ const Home = () => {
               </div>
             </Link>
           </div>
+
+          <img className="ic2" src={ic1} />
+          <img className="ic1" src={ic2} />
+
   
           <div className="leftsideabout bottom " data-aos="zoom-in-up" data-aos-duration="1000">
             <div className="imgleftus">
@@ -216,15 +224,22 @@ const Home = () => {
   
             <h1>برامجنا</h1>
           </div>
+
   
           <div className="left_programs bottom">
             {/* <!-- Swiper --> */}
             <ProgramsSwiper />
           </div>
+
+
+
         </section>
   
         <section className="newNews  bottom" data-aos="fade-up">
           <div className="allCardNews container">
+
+
+
             <div className="topCardNews">
               <div className="rightSideCard">
                 <div className="cardNews cardNew1">
@@ -256,6 +271,8 @@ const Home = () => {
                   ""
                 )}
   
+  
+
                 <div className="allTepNews">
                   <div className="textNews">
                     <div class={`textnew ${num == 0 ? "active" : ""} `}>
@@ -342,6 +359,7 @@ const Home = () => {
         </section>
   
         <section className="newNewsMob bottom" data-aos="fade-up">
+          
           <div className="leftSideCard">
             <div className="titletexthed abouttit">
               <p>المركز الاعلامي</p>
@@ -418,6 +436,9 @@ const Home = () => {
             </div>
           </div>
           <div className="allnums container bottom">
+
+
+
             <div className="cardnums cardnums4">
               <div className="titnumCard">
                 <h1>100</h1>
@@ -449,6 +470,8 @@ const Home = () => {
               <img src={shb6} alt="" />
             </div>
           </div>
+
+          
   
           <div className="imgleftcardnum bottom">
             <img src={Mask_Group_68} alt="" />
@@ -473,10 +496,21 @@ const Home = () => {
   
             <h1>الشركاء</h1>
           </div>
+
+          
   
           {/* <!-- Swiper --> */}
           <Our_programsSwiper />
         </section>
+
+
+
+
+
+
+
+
+
       </>
 
 
