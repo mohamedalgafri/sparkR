@@ -50,6 +50,8 @@ import ic3 from "../images/ic3.svg";
 import { Link } from "react-router-dom";
 import { PacmanLoader} from "react-spinners";
 
+import axios from "axios";
+
 
 
 
@@ -61,8 +63,18 @@ const Home = () => {
   // let [filtered, setFilered] = useState(null);
   let [num, setnum] = useState(0);
 
+  let [data , setData] = useState([]);
+
   useEffect(() => {
     require("../js/sliderHeder");
+
+
+  axios.get('https://spark.rafeeqissa.com/api/statistics')
+    .then(function (response) {
+      setData(response.data.statistic);
+  });
+
+
   }, []);
 
 
@@ -406,7 +418,7 @@ const Home = () => {
           <div className="allnums container bottom">
             <div className="cardnums cardnums1 ">
               <div className="titnumCard">
-                <h1>30</h1>
+                <h1>{data.project}</h1>
                 <h4>مشروع</h4>
                 <img src={vuesax_broken} alt="" />
               </div>
@@ -417,7 +429,7 @@ const Home = () => {
   
             <div className="cardnums cardnums2">
               <div className="titnumCard">
-                <h1>25</h1>
+              <h1>{data.partnership}</h1>
                 <h4>شراكة</h4>
                 <img src={vuesax_programming} alt="" />
               </div>
@@ -427,7 +439,7 @@ const Home = () => {
   
             <div className="cardnums cardnums3">
               <div className="titnumCard">
-                <h1>30</h1>
+              <h1>{data.program}</h1>
                 <h4>برنامج</h4>
                 <img src={vuesax_monitor} alt="" />
               </div>
@@ -441,7 +453,7 @@ const Home = () => {
 
             <div className="cardnums cardnums4">
               <div className="titnumCard">
-                <h1>100</h1>
+              <h1>{data.young}</h1>
                 <h4>الشباب</h4>
                 <img src={vuesax_outline} alt="" />
               </div>
@@ -452,7 +464,7 @@ const Home = () => {
   
             <div className="cardnums cardnums5">
               <div className="titnumCard">
-                <h1>750</h1>
+              <h1>{data.Makerspace}</h1>
                 <h4>شاب وصبية</h4>
                 <img src={Group_540} alt="" />
               </div>
@@ -462,7 +474,7 @@ const Home = () => {
   
             <div className="cardnums cardnums6">
               <div className="titnumCard">
-                <h1>300</h1>
+              <h1>{data.literacy}</h1>
                 <h4>شاب وصبية</h4>
                 <img src={Group_540} alt="" />
               </div>
